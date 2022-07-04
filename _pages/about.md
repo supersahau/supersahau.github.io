@@ -18,14 +18,14 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 Now, I am studying in Qingdao University, majoring in System Science. 
- <a href='https://scholar.google.com/citations?user=qXqZ9NUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+ <a href='https://scholar.google.com/citations?user=qXqZ9NUAAAAJ'><img src="https://img.shields.io/badge/dynamic/json?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 My research interest includes: 
 - Image processing
 - Meteorological statistical analysis
 - Natural language processing  
 
-I compiled the review materials for the postgraduate entrance examination of 863 Probability Theory and Mathematical Statistics. [[PDF]](/pdf/概率论与数理统计.pdf)
+I compiled the review materials for the postgraduate entrance examination of 863 Probability Theory and Mathematical Statistics. [[Download]](/pdf/概率论与数理统计.pdf)
 
 
 <span class='anchor' id='-educations'></span>
