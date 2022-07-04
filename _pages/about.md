@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 Now, I am studying in Qingdao University, majoring in System Science. 
- <a href='https://scholar.google.com/citations?user=qXqZ9NUAAAAJ'><img src="https://shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+ <a href='https://scholar.google.com/citations?user=qXqZ9NUAAAAJ'><img src="https://img.shields.io/badge/dynamic?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 My research interest includes: 
 - Image processing
