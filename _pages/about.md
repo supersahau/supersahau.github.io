@@ -89,8 +89,6 @@ I compiled the review materials for the postgraduate entrance examination of "86
 - *2021.05 - 2021.08*, Hefei xiaolu data information technology co., ltd., Hefei.
 
 ---
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/目标.jpg' alt="sym" width="100%"></div></div>  
-
----
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/目标.jpg' alt="sym" width="100%"></div></div></div>
 
 *[注释]: 🏭 新栏目图标
