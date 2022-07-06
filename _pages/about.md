@@ -15,6 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
+<font face="Time New Roman">
 <span class='anchor' id='about-me'></span>
 
 Now, I am studying in Qingdao University, majoring in System Science. 
@@ -92,3 +93,5 @@ I compiled the review materials for the postgraduate entrance examination of "86
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/目标.jpg' alt="sym" width="100%"></div></div></div>
 
 *[注释]: 🏭 新栏目图标
+
+</font>
