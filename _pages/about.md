@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <font face="Time New Roman">
 
-<div class='paper-box'> <div class='paper-box-text' markdown="1">
+<div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='about-me'></span>
 
@@ -95,6 +95,5 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 *[注释]: 🏭 新栏目图标
 
-</div>
 </div>
 </font>
