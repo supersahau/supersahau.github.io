@@ -14,19 +14,22 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<font face="Time New Roman">
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">J</div><img src='' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
 <span class='anchor' id='about-me'></span>
 
-<font face="Time New Roman">Now, I am studying in Qingdao University, majoring in System Science.  
-<a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></font></a>
+Now, I am studying in Qingdao University, majoring in System Science. 
+<a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
 
+My research interest includes: 
+- Image processing
+- Meteorological statistical analysis
+- Natural language processing
 
-<font face="Time New Roman">My research interest includes: </font>
-- <font face="Time New Roman">Image processing</font>
-- <font face="Time New Roman">Meteorological statistical analysis</font>
-- <font face="Time New Roman">Natural language processing</font>  
-
-<font face="Time New Roman">I compiled the review materials for the postgraduate entrance examination of "863 Probability & Mathematical Statistics" (with few mistakes). [[Download]]</font>(/pdf/概率论与数理统计.pdf) 
+I compiled the review materials for the postgraduate entrance examination of "863 Probability & Mathematical Statistics" (with few mistakes). [[Download]](/pdf/概率论与数理统计.pdf) 
 
 
 <span class='anchor' id='-educations'></span>
@@ -94,4 +97,6 @@ redirect_from:
 
 *[注释]: 🏭 新栏目图标
 
-
+</div>
+</div>
+</font>
