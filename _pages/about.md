@@ -17,7 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-<font face="Time New Roman">Now, I am studying in Qingdao University, majoring in System Science.  <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a></font>
+<font face="Time New Roman">Now, I am studying in Qingdao University, majoring in System Science.  
+<a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></font></a>
 
 
 <font face="Time New Roman">My research interest includes: </font>
@@ -25,7 +26,7 @@ redirect_from:
 - <font face="Time New Roman">Meteorological statistical analysis</font>
 - <font face="Time New Roman">Natural language processing</font>  
 
-<font face="Time New Roman">I compiled the review materials for the postgraduate entrance examination of "863 Probability & Mathematical Statistics" (with few mistakes). [[Download]](/pdf/概率论与数理统计.pdf)</font> 
+<font face="Time New Roman">I compiled the review materials for the postgraduate entrance examination of "863 Probability & Mathematical Statistics" (with few mistakes). [[Download]]</font>(/pdf/概率论与数理统计.pdf) 
 
 
 <span class='anchor' id='-educations'></span>
