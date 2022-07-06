@@ -14,8 +14,7 @@ redirect_from:
 {% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-<font face="宋体">
-<font en_face="Time New Roman">
+<font face="宋体"&face="Time New Roman">
 
 <div class='paper-box-text' markdown="1">
 
@@ -96,5 +95,4 @@ I compiled the review materials for the postgraduate entrance examination of "86
 *[注释]: 🏭 新栏目图标
 
 </div>
-</font>
 </font>
