@@ -15,14 +15,13 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<font face="Time New Roman">
 <span class='anchor' id='about-me'></span>
 
-Now, I am studying in Qingdao University, majoring in System Science. 
+<font face="Time New Roman">Now, I am studying in Qingdao University, majoring in System Science. </font>
  <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
 
-My research interest includes: 
-- Image processing
+<font face="Time New Roman">My research interest includes: </font>
+- <font face="Time New Roman">Image processing</font>
 - Meteorological statistical analysis
 - Natural language processing  
 
@@ -94,4 +93,4 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 *[注释]: 🏭 新栏目图标
 
-</font>
+
