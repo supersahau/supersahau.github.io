@@ -88,7 +88,7 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 <span class='anchor' id='-internships'></span>
 # 💻 Internships
-- *2021.05 - 2021.08*, Hefei xiaolu data information technology co., ltd., Hefei.
+- *2021.05 - 2021.08*, Hefei Xiaolu Data Information Technology Co., Ltd., Hefei.
 	
 ---
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/目标.jpg' alt="sym" width="100%"></div></div></div>
