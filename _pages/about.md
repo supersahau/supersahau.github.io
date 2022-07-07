@@ -51,9 +51,10 @@ I compiled the review materials for the postgraduate entrance examination of "86
 ### Chinese Papers
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Luoyang Institute of Science and Technology2022</div><img src='images/glcm2022.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 - ***CHEN Tao***, ZHANG Qingguo, LIU Ao. SVM Classification Implementation of Graphic Texture Detection and Welding Defects Based on Gray Level Co-occurrence Matrix[J]. *Journal of Luoyang Institute of Science and Technology(Natural Science Edition)*,2022,32(01):53-61+67.
 [[HTML]](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2022&filename=LYGY202201010) [[cqvip]](/pdf/文献收录证明2.pdf) [[Download]](/pdf/%E5%9F%BA%E4%BA%8E%E7%81%B0%E5%BA%A6%E5%85%B1%E7%94%9F%E7%9F%A9%E9%98%B5%E7%9A%84%E5%9B%BE%E5%BD%A2%E7%BA%B9%E7%90%86%E6%A3%80%E6%B5%8B%E5%8F%8A%E7%84%8A%E6%8E%A5%E7%BC%BA%E9%99%B7%E7%9A%84SVM%E5%88%86%E7%B1%BB%E5%AE%9E%E7%8E%B0.pdf)  
-***陈滔***,张庆国,刘澳.基于灰度共生矩阵的图形纹理检测及焊接缺陷的SVM分类实现[J].*洛阳理工学院学报(自然科学版)*,2022,32(01):53-61+67.	
+	***陈滔***,张庆国,刘澳.基于灰度共生矩阵的图形纹理检测及焊接缺陷的SVM分类实现[J].*洛阳理工学院学报(自然科学版)*,2022,32(01):53-61+67.	
 </div>
 </div>
 
