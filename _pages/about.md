@@ -49,7 +49,7 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 
 ### Chinese Papers
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Luoyang Institute of Science and Technology2022</div><img src='images/glcm2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Luoyang Institute of Science and Technology2022</div><img src='/images/glcm2022.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - ***CHEN Tao***, ZHANG Qingguo, LIU Ao. SVM Classification Implementation of Graphic Texture Detection and Welding Defects Based on Gray Level Co-occurrence Matrix[J]. *Journal of Luoyang Institute of Science and Technology(Natural Science Edition)*,2022,32(01):53-61+67.
@@ -58,7 +58,7 @@ I compiled the review materials for the postgraduate entrance examination of "86
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Hubei Minzu University2022</div><img src='images/plagiarism2022.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Hubei Minzu University2022</div><img src='/images/plagiarism2022.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 - ***CHEN Tao***, ZHANG Qingguo, HE Jinbo, ZHOU Wenzhu. Research on Feature Extraction Algorithm of Text Plagiarism Detection Based on Multi-algorithm Fusion[J]. *Journal of Hubei Minzu University(Natural Science Edition)*,2022,40(01):67-72.
@@ -90,7 +90,7 @@ I compiled the review materials for the postgraduate entrance examination of "86
 - *2021.05 - 2021.08*, Hefei Xiaolu Data Information Technology Co., Ltd., Hefei.
 	
 ---
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/目标.jpg' alt="sym" width="100%"></div></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='/images/目标.jpg' alt="sym" width="100%"></div></div></div>
 
 *[注释]: 🏭 新栏目图标
 
