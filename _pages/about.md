@@ -28,7 +28,7 @@ My research interest includes:
 - *Meteorological Statistical Analysis*
 - *Natural Language Processing*
 
-I compiled the review materials for the postgraduate entrance examination of "863 Probability & Mathematical Statistics" (***with few mistakes***). [[Download]](/pdf/概率论与数理统计.pdf) 
+I compiled the review materials for the postgraduate entrance examination of "863 Probability & Mathematical Statistics" (*with few mistakes*). [[Download]](/pdf/概率论与数理统计.pdf) 
 
 
 <span class='anchor' id='-educations'></span>
