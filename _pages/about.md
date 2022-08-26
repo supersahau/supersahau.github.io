@@ -23,7 +23,8 @@ redirect_from:
 Now, I am studying in Qingdao University, majoring in System Science. <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
 
 My research interest includes: 
-- Image processing
+- Broad Learning System
+- Deep Learning
 - Meteorological statistical analysis
 - Natural language processing
 
