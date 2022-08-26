@@ -23,12 +23,12 @@ redirect_from:
 Now, I am studying in Qingdao University, majoring in System Science. <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
 
 My research interest includes: 
-- Broad Learning System
-- Deep Learning
-- Meteorological Statistical Analysis
-- Natural Language Processing
+- *Broad Learning System*
+- *Deep Learning*
+- *Meteorological Statistical Analysis*
+- *Natural Language Processing*
 
-I compiled the review materials for the postgraduate entrance examination of "863 Probability & Mathematical Statistics" (with few mistakes). [[Download]](/pdf/概率论与数理统计.pdf) 
+I compiled the review materials for the postgraduate entrance examination of "863 Probability & Mathematical Statistics" (***with few mistakes***). [[Download]](/pdf/概率论与数理统计.pdf) 
 
 
 <span class='anchor' id='-educations'></span>
