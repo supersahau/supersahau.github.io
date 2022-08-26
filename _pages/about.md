@@ -80,7 +80,7 @@ I compiled the review materials for the postgraduate entrance examination of "86
 - WANG Xue-mei, WANG Feng-wen, ***CHEN Tao***, ZHANG Qing-guo, JIANG Yue-lin. PM2.5 CONCENTRATION PREDICTION AND UNCERTAINTY ANALYSIS BASED ON A COMPOSITE MODEL[J]. *Environmental Engineering*,2020,38(08):229-235.
 [[HTML]](http://hjgc.ic-mag.com/cn/article/doi/10.13205/j.hjgc.202008038) [[cqvip]](/pdf/文献收录证明4.pdf) [[Download]](/pdf/%E5%9F%BA%E4%BA%8E%E7%BB%84%E5%90%88%E6%A8%A1%E5%9E%8B%E7%9A%84PM2.5_%E6%B5%93%E5%BA%A6%E9%A2%84%E6%B5%8B%E5%8F%8A%E5%85%B6%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%88%86%E6%9E%90.pdf)  
 <font face="华光楷体_CNKI">
-    王学梅,王凤文,陈滔,张庆国,蒋跃林.基于组合模型的PM_(2.5)浓度预测及其不确定性分析[J].环境工程,2020,38(08):229-235.
+- 王学梅,王凤文,陈滔,张庆国,蒋跃林.基于组合模型的PM_(2.5)浓度预测及其不确定性分析[J].环境工程,2020,38(08):229-235.
 </font>
 
 <span class='anchor' id='-honors-and-awards'></span>
