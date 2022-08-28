@@ -42,7 +42,7 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 
 <span class='anchor' id='-publications'></span>
-# 📝 Publications 
+# 📝 Academic Publications 
 
 *[注释]: ### English Papers此处编写英文文献
 *[注释]: ---
