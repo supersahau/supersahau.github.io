@@ -33,8 +33,9 @@ I compiled the review materials for the postgraduate entrance examination of "86
 <span class='anchor' id='-educations'></span>
 
 # 🎓 Educations 
-- *2022.09 - 2025.06*, <a href="http://english.qdu.edu.cn/"><img class="jpg" src="images/qdu.jpg" width="23pt"></a> [School of Automation, Qingdao University](http://zdh.qdu.edu.cn/), System Science, Master, M.Sc.
 - *2017.09 - 2021.06*, <a href="http://eng.ahau.edu.cn/"><img class="jpg" src="images/ahau.jpg" width="23pt"></a> [School of Engineering, Anhui Agriculture University](http://gxy.ahau.edu.cn/), Vehicle Engineering, Undergraduate, B.Eng.
+- *2022.09 - 2025.06*, <a href="http://english.qdu.edu.cn/"><img class="jpg" src="images/qdu.jpg" width="23pt"></a> [School of Automation, Qingdao University](http://zdh.qdu.edu.cn/), System Science, Master, M.Sc.
+
 
 <span class='anchor' id='-programs'></span>
 # 💬 Programs
@@ -84,8 +85,9 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 <span class='anchor' id='-internships'></span>
 # 💻 Internships
-- *2021.05 - 2021.08*, Hefei Xiaolu Data Information Technology Co., Ltd., Hefei.
-	
+- *2021.05 - 2021.08*, Hefei Xiaolu Data Information Technology Co., Ltd., Hefei, **Cloud Computing Engineer**.
+- *2022.09 - 2025.06*, System Science, School of Automation, Qingdao University, Qingdao, **Study Committee Member**.
+- *2022.10 - xxxx.xx*, Asset Management Division of Assets and Experiment Management Office of Qingdao University, Qingdao,**Student Assistance**.
 ---
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/目标.jpg' alt="sym" width="100%"></div></div></div>
 
