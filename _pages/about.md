@@ -88,6 +88,7 @@ I compiled the review materials for the postgraduate entrance examination of "86
 - *2021.05 - 2021.08*, Hefei Xiaolu Data Information Technology Co., Ltd., Hefei, **Cloud Computing Engineer**.
 - *2022.09 - 2025.06*, System Science, School of Automation, Qingdao University, Qingdao, **Study Committee Member**.
 - *2022.10 - xxxx.xx*, Asset Management Division of Assets and Experiment Management Office of Qingdao University, Qingdao,**Student Assistance**.
+  
 ---
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/目标.jpg' alt="sym" width="100%"></div></div></div>
 
