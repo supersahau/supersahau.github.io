@@ -77,6 +77,7 @@ I compiled the review materials for the postgraduate entrance examination of "86
 # 🏅 Honors and Awards
 - *Year 2019* Won **The third prize** of the 9th National College Student Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the third prize** of graduate group of Anhui College Student Statistical Modeling Competition, etc.
 - *Year 2020* Won **The second prize** of the 18th SuperMap Cup GIS Competition, **the third prize** of the 10th National College Student Market Survey and Analysis Competition and **the first prize** of Anhui Division, etc.
+- *2022.09 - 2025.06*, System Science, School of Automation, Qingdao University, **Study Committee Member**.
 
 
 <span class='anchor' id='-conferences'></span>
@@ -85,9 +86,9 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 <span class='anchor' id='-internships'></span>
 # 💻 Internships
-- *2021.05 - 2021.08*, Hefei Xiaolu Data Information Technology Co., Ltd., Hefei, **Cloud Computing Engineer**.
-- *2022.09 - 2025.06*, System Science, School of Automation, Qingdao University, Qingdao, **Study Committee Member**.
-- *2022.10 - xxxx.xx*, Asset Management Division of Assets and Experiment Management Office of Qingdao University, Qingdao,**Student Assistance**.
+- *2021.05 - 2021.08*, Hefei Xiaolu Data Information Technology Co., Ltd., **Cloud Computing Engineer**.
+- *2022.10 - xxxx.xx*, Asset Management Division of Assets and Experiment Management Office of Qingdao University, **Student Assistance**.
+- *2022.10 - xxxx.xx*, Engineering Journal of Wuhan University Editorial Department, **Internship Editor**
   
 ---
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/目标.jpg' alt="sym" width="100%"></div></div></div>
