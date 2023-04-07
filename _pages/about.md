@@ -24,7 +24,7 @@ Now, I am studying in Qingdao University, majoring in System Science. <a href='h
 My research interest includes: 
 - *Broad Learning System*
 - *Deep Learning*
-- *Meteorological Statistical Analysis*
+- *Statistical Analysis and Prediction*
 - *Natural Language Processing*
 
 I compiled the review materials for the postgraduate entrance examination of "863 Probability & Mathematical Statistics" (*with few mistakes*). [[Download]](/pdf/概率论与数理统计.pdf) 
@@ -38,7 +38,7 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 
 <span class='anchor' id='-programs'></span>
-# 💬 Programs
+# 📚 Programs
 - *2020.04-2021.04*, Student Development Support Program of the 5th "Excellent Talents Scheme" of Anhui Agricultural University, Leader[[Notice]](http://xszz.ahau.edu.cn/info/1013/1793.htm)  [[List]](/Excel/安徽农业大学2020年第五期“优才计划”项目拟立项名单.xls)
 
 
@@ -74,13 +74,13 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 
 <span class='anchor' id='-honors-and-awards'></span>
-# 🏅 Honors and Awards
-- *Year 2019* Won **The third prize** of the 9th National College Student Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the third prize** of graduate group of Anhui College Student Statistical Modeling Competition, etc.
-- *Year 2020* Won **The second prize** of the 18th SuperMap Cup GIS Competition, **the third prize** of the 10th National College Student Market Survey and Analysis Competition and **the first prize** of Anhui Division, etc.
-
+# 📖 Honors and Awards
+- *Year 2019* Won **The third prize** of the 9th National College Student Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the third prize** of graduate group of Anhui College Studens' Statistical Modeling Contest, etc.
+- *Year 2020* Won **The second prize** of the 18th SuperMap Cup GIS Competition, **the third prize** of the 10th National College Student Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the first prize** of Anhui Computer Game Competition for College Students, etc.
+- *Year 2023* Won **The second prize** of Shandong Graduate "AI+" Innovation Competition, etc.
 
 <span class='anchor' id='-conferences'></span>
-# 🏛️ Forums and Conferences
+# 💬 Forums and Conferences
 - *time*, test, address
 
 <span class='anchor' id='-internships'></span>
