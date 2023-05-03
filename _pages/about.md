@@ -54,7 +54,7 @@ I compiled the review materials for the postgraduate entrance examination of "86
 <div class='paper-box-text' markdown="1">
 
 -	**CHEN Tao**. Welding Defect Image Recognition Based on Improved Particle Swarm Optimization K-means Clustering[J].*Journal of Zunyi Normal University*, 2023, 25(02): 85-88.
-[[HTML]](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKu87-SJxoEJu6LL9TJzd50kh16NZV3SxFpUR_bKEjM1ob5Gr6DPEXiPJ6puhJ6wj7khRK8SMYNvU&uniplatform=NZKPT) [[Cqvip]() [[Download]](/pdf/基于改进粒子群优化的K-means聚类的焊接缺陷图像识别.pdf)
+[[HTML]](https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C44YLTlOAiTRKu87-SJxoEJu6LL9TJzd50kh16NZV3SxFpUR_bKEjM1ob5Gr6DPEXiPJ6puhJ6wj7khRK8SMYNvU&uniplatform=NZKPT) [[Cqvip]]() [[Download]](/pdf/基于改进粒子群优化的K-means聚类的焊接缺陷图像识别.pdf)
 </div>
 </div>
 
