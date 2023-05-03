@@ -92,7 +92,6 @@ I compiled the review materials for the postgraduate entrance examination of "86
 - *2022.10 - xxxx.xx*, Engineering Journal of Wuhan University Editorial Department, **Internship Editor**.
   
 ---
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/目标.jpg' alt="sym" width="100%"></div></div></div>
 
 *[注释]: 🏭 新栏目图标
 
