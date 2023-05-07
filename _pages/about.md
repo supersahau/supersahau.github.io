@@ -76,7 +76,7 @@ I compiled the review materials for the postgraduate entrance examination of "86
 - CHEN Yiqiong, LIU Ao, FAN Guohua, BI Jiaze, **CHEN Tao**. Detection of Colorectal Polyps on CT Images Based on Deep Forest[J]. *Journal of Luoyang Institute of Science and Technology (Natural Science Edition)*, 2022, 32(01): 68-74.
 [[HTML]](http://dx.chinadoi.cn/10.3969/j.issn.1674-5043.2022.01.012) [[Cqvip]](/pdf/文献收录证明3.pdf) [[Download]](/pdf/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E6%A3%AE%E6%9E%97%E7%9A%84CT%E5%9B%BE%E5%83%8F%E7%BB%93%E7%9B%B4%E8%82%A0%E6%81%AF%E8%82%89%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6.pdf)  
 
-- WANG Xue-mei, WANG Feng-wen, **CHEN Tao**, ZHANG Qing-guo, JIANG Yue-lin. PM2.5 CONCENTRATION PREDICTION AND UNCERTAINTY ANALYSIS BASED ON A COMPOSITE MODEL[J]. *Environmental Engineering*, 2020, 38(08): 229-235.
+- WANG Xue-mei, WANG Feng-wen, **CHEN Tao**, ZHANG Qing-guo, JIANG Yue-lin. PM2.5 Concentration Prediction and Uncertainty Analysis Based on a Composite Model[J]. *Environmental Engineering*, 2020, 38(08): 229-235.
 [[HTML]](http://hjgc.ic-mag.com/cn/article/doi/10.13205/j.hjgc.202008038) [[Cqvip]](/pdf/文献收录证明4.pdf) [[Download]](/pdf/%E5%9F%BA%E4%BA%8E%E7%BB%84%E5%90%88%E6%A8%A1%E5%9E%8B%E7%9A%84PM2.5_%E6%B5%93%E5%BA%A6%E9%A2%84%E6%B5%8B%E5%8F%8A%E5%85%B6%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%88%86%E6%9E%90.pdf)  
 
 
