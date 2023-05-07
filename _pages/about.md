@@ -37,7 +37,7 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 <span class='anchor' id='-news'></span>
 # 🔥 News 
-- *2023.05*: 🔥🔥Our paper "SVM Classification Implementation of Graphic Texture Detection and Welding Defects Based on Gray Level Co-occurrence Matrix" was selected into the high-download papers of CNKI "Academic Essence Database" [[Link]](https://xsjy.cnki.net/Ajax/Certificate?filename=LYGY202201010) or [[e-Certificate]](/images/入选证书.png).
+- *2023.05*: 🔥🔥Our paper that titled "SVM Classification Implementation of Graphic Texture Detection and Welding Defects Based on Gray Level Co-occurrence Matrix" was selected as a high-download paper in CNKI's Academic Essence Database [[Link]](https://xsjy.cnki.net/Ajax/Certificate?filename=LYGY202201010) or [[e-Certificate]](/images/入选证书.png).
 - *2023.04*: 🔥🔥The team won the second prize in the 2022 Shandong Graduate "AI+" Innovation Competition [[Final Notice]](https://www.qlu.edu.cn/2023/0329/c7989a220592/page.htm).
   
  
