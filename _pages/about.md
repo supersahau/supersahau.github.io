@@ -31,12 +31,15 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 
 <span class='anchor' id='-educations'></span>
-
 # 🎓 Educations 
 - *2017.09 - 2021.06*, <a href="http://eng.ahau.edu.cn/"><img class="jpg" src="images/ahau.jpg" width="23pt"></a> [School of Engineering, Anhui Agriculture University](http://gxy.ahau.edu.cn/), Vehicle Engineering, Undergraduate, B.Eng.
 - *2022.09 - 2025.06*, <a href="http://english.qdu.edu.cn/"><img class="jpg" src="images/qdu.jpg" width="23pt"></a> [School of Automation, Qingdao University](http://zdh.qdu.edu.cn/), System Science, Master, M.Sc.
 
-
+<span class='anchor' id='-news'></span>
+# 🔥 News 
+- *2023.05*: 🔥🔥Our paper "SVM Classification Implementation of Graphic Texture Detection and Welding Defects Based on Gray Level Co-occurrence Matrix" was selected into the high-download papers of CNKI "Academic Essence Database" [[link]](https://xsjy.cnki.net/Ajax/Certificate?filename=LYGY202201010) or [[e-Certificate]](/images/入选证书.png).
+  
+ 
 <span class='anchor' id='-programs'></span>
 # 📚 Programs
 - *2020.04-2021.04*, Student Development Support Program of the 5th "Excellent Talents Scheme" of Anhui Agricultural University, Leader[[Notice]](http://xszz.ahau.edu.cn/info/1013/1793.htm)  [[List]](/Excel/安徽农业大学2020年第五期“优才计划”项目拟立项名单.xls)
