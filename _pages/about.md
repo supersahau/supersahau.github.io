@@ -32,8 +32,8 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-educations'></span>
 # 🎓 Educations 
-- *2017.09 - 2021.06*, <a href="http://eng.ahau.edu.cn/"><img class="jpg" src="images/ahau.jpg" width="23pt"></a> [School of Engineering, Anhui Agriculture University](http://gxy.ahau.edu.cn/), Vehicle Engineering, Undergraduate, B.Eng.
 - *2022.09 - 2025.06*, <a href="http://english.qdu.edu.cn/"><img class="jpg" src="images/qdu.jpg" width="23pt"></a> [School of Automation, Qingdao University](http://zdh.qdu.edu.cn/), System Science, Master, M.Sc.
+- *2017.09 - 2021.06*, <a href="http://eng.ahau.edu.cn/"><img class="jpg" src="images/ahau.jpg" width="23pt"></a> [School of Engineering, Anhui Agriculture University](http://gxy.ahau.edu.cn/), Vehicle Engineering, Undergraduate, B.Eng.
 
 <span class='anchor' id='-news'></span>
 # 🔥 News 
@@ -44,8 +44,8 @@ I helped my friends sort out the review material for the postgraduate entrance e
  
 <span class='anchor' id='-programs'></span>
 # 📚 Programs
-- *2022.12-2023.12*, Shandong Province Youth Education Science Planning Project Academic Project for College Students, 23BSH334, Application of Improved Broad Learning System in Time Series Data, Participant, [[Notice]](http://www.sdgov.org.cn/newsview-2331.html) or [[List]](/Excel/山东省青少年教育科学规划项目大学生学术课题立项名单.xls). 
-- *2020.04-2021.04*, Student Development Support Program of the 5th "Excellent Talents Scheme" of Anhui Agricultural University, XSZZ202006, Sales Volume of New Energy Vehicles and Stock Market Fluctuations and Public Opinion Survey Analysis, Host, [[Notice]](http://xszz.ahau.edu.cn/info/1013/1793.htm) or [[List]](/Excel/安徽农业大学2020年第五期“优才计划”项目拟立项名单.xls)
+- *2022.12 - 2023.12*, Shandong Province Youth Education Science Planning Project Academic Project for College Students, 23BSH334, Application of Improved Broad Learning System in Time Series Data, Participant, [[Notice]](http://www.sdgov.org.cn/newsview-2331.html) or [[List]](/Excel/山东省青少年教育科学规划项目大学生学术课题立项名单.xls). 
+- *2020.04 - 2021.04*, Student Development Support Program of the 5th "Excellent Talents Scheme" of Anhui Agricultural University, XSZZ202006, Sales Volume of New Energy Vehicles and Stock Market Fluctuations and Public Opinion Survey Analysis, Host, [[Notice]](http://xszz.ahau.edu.cn/info/1013/1793.htm) or [[List]](/Excel/安徽农业大学2020年第五期“优才计划”项目拟立项名单.xls)
 
 
 <span class='anchor' id='-publications'></span>
