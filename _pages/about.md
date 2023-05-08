@@ -19,7 +19,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Now, I am studying in Qingdao University, majoring in System Science. <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
+I  <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a> am currently pursuing a master's degree in Systems Science at the School of Automation, Qingdao University, under the guidance of Professor [[Wang Lijie]](http://ics.qdu.edu.cn/info/1150/1264.htm).
 
 My research interest includes: 
 - *Broad Learning System*
