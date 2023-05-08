@@ -16,10 +16,10 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 <font face="Times New Roman">
 <div class='paper-box-text' markdown="1">
-
+  
 <span class='anchor' id='about-me'></span>
 
-I am currently pursuing a master's degree in System Science at the School of Automation, Qingdao University <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>.
+I am currently pursuing a master's degree in System Science at the School of Automation, Qingdao University. <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
 
 My research interest includes: 
 - *Broad Learning System*
