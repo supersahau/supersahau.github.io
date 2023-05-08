@@ -38,13 +38,14 @@ I helped my friends sort out the review material for the postgraduate entrance e
 <span class='anchor' id='-news'></span>
 # 🔥 News 
 - *2023.05*: 🔥🔥Our paper that titled "SVM Classification Implementation of Graphic Texture Detection and Welding Defects Based on Gray Level Co-occurrence Matrix" was selected as a high-download paper in CNKI's Academic Essence Database [[Link]](https://xsjy.cnki.net/Ajax/Certificate?filename=LYGY202201010) or [[e-Certificate]](/images/入选证书.png).
-- *2023.04*: 🔥🔥The team won the second prize in the 2022 Shandong Graduate "AI+" Innovation Competition [[Final Notice]](https://www.qlu.edu.cn/2023/0329/c7989a220592/page.htm).
+- *2023.04*: 🔥🔥My team won the second prize in the 2022 Shandong Graduate "AI+" Innovation Competition [[Final Notice]](https://www.qlu.edu.cn/2023/0329/c7989a220592/page.htm).
+- *2023.03*： 🔥🔥The project I participated in "Application of Improved Broad Learning System in Time Series Data" was approved for Shandong Province Youth Education Science Planning Project Academic Project for College Students [[Notice]](http://www.sdgov.org.cn/newsview-2331.html).
   
  
 <span class='anchor' id='-programs'></span>
 # 📚 Programs
-- *2022.12-2023.12*, 
-- *2020.04-2021.04*, Student Development Support Program of the 5th "Excellent Talents Scheme" of Anhui Agricultural University, Leader [[Notice]](http://xszz.ahau.edu.cn/info/1013/1793.htm) or [[List]](/Excel/安徽农业大学2020年第五期“优才计划”项目拟立项名单.xls)
+- *2022.12-2023.12*, Shandong Province Youth Education Science Planning Project Academic Project for College Students, 23BSH334, Application of Improved Broad Learning System in Time Series Data, Participant, [[Notice]](http://www.sdgov.org.cn/newsview-2331.html) or [[List]](/Excel/山东省青少年教育科学规划项目大学生学术课题立项名单.xls). 
+- *2020.04-2021.04*, Student Development Support Program of the 5th "Excellent Talents Scheme" of Anhui Agricultural University, XSZZ202006, Sales Volume of New Energy Vehicles and Stock Market Fluctuations and Public Opinion Survey Analysis, Host, [[Notice]](http://xszz.ahau.edu.cn/info/1013/1793.htm) or [[List]](/Excel/安徽农业大学2020年第五期“优才计划”项目拟立项名单.xls)
 
 
 <span class='anchor' id='-publications'></span>
