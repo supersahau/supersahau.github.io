@@ -82,9 +82,9 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 <span class='anchor' id='-honors-and-awards'></span>
 # 📖 Honors and Awards
-- *Year 2019* Won **The third prize** of the 9th National College Students' Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the third prize** of graduate group of Anhui College Studens' Statistical Modeling Contest, etc.
-- *Year 2020* Won **The second prize** of the 18th SuperMap Cup GIS Competition, **the third prize** of the 10th National College Students' Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the first prize** of Anhui Computer Game Competition for College Students, etc.
 - *Year 2022* Won **The second prize** of Shandong Graduate "AI+" Innovation Competition, etc.
+- *Year 2020* Won **The second prize** of the 18th SuperMap Cup GIS Competition, **the third prize** of the 10th National College Students' Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the first prize** of Anhui Computer Game Competition for College Students, etc.
+- *Year 2019* Won **The third prize** of the 9th National College Students' Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the third prize** of graduate group of Anhui College Studens' Statistical Modeling Contest, etc.
 
 <span class='anchor' id='-conferences'></span>
 # 💬 Forums and Conferences
@@ -92,8 +92,8 @@ I compiled the review materials for the postgraduate entrance examination of "86
 
 <span class='anchor' id='-internships'></span>
 # 💻 Internships
-- *2021.05 - 2021.08*, Hefei Xiaolu Data Information Technology Co., Ltd., **Cloud Computing Engineer**.
 - *2022.10 - xxxx.xx*, Engineering Journal of Wuhan University Editorial Department, **Internship Editor**.
+- *2021.05 - 2021.08*, Hefei Xiaolu Data Information Technology Co., Ltd., **Cloud Computing Engineer**.
   
 ---
 
