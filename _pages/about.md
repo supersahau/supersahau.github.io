@@ -19,7 +19,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I  <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a> am currently pursuing a master's degree in Systems Science at the School of Automation, Qingdao University, under the guidance of Professor [[Wang Lijie]](http://ics.qdu.edu.cn/info/1150/1264.htm).
+I am currently pursuing a master's degree in System Science at the School of Automation, Qingdao University <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>.
 
 My research interest includes: 
 - *Broad Learning System*
@@ -27,7 +27,7 @@ My research interest includes:
 - *Statistical Analysis and Prediction*
 - *Natural Language Processing*
 
-I compiled the review materials for the postgraduate entrance examination of "863 Probability & Mathematical Statistics" (*with few mistakes*). [[Download]](/pdf/概率论与数理统计.pdf) 
+I helped my friends sort out the review material for the postgraduate entrance examination of "863 Probability & Mathematical Statistics" (*with few mistakes*). [[Download]](/pdf/概率论与数理统计.pdf) 
 
 
 <span class='anchor' id='-educations'></span>
