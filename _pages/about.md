@@ -43,6 +43,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
  
 <span class='anchor' id='-programs'></span>
 # 📚 Programs
+- *2022.12-2023.12*, 
 - *2020.04-2021.04*, Student Development Support Program of the 5th "Excellent Talents Scheme" of Anhui Agricultural University, Leader [[Notice]](http://xszz.ahau.edu.cn/info/1013/1793.htm) or [[List]](/Excel/安徽农业大学2020年第五期“优才计划”项目拟立项名单.xls)
 
 
@@ -71,7 +72,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 </div>
 
 - **CHEN Tao**, ZHANG Qingguo, HE Jinbo, ZHOU Wenzhu. Research on Feature Extraction Algorithm of Text Plagiarism Detection Based on Multi-algorithm Fusion[J]. *Journal of Hubei Minzu University (Natural Science Edition)*, 2022, 40(01): 67-72.
-[[HTML]](https://hbmdzk.cbpt.cnki.net/WKD3/WebPublication/paperDigest.aspx?paperID=cd2cedeb-4a16-4c22-939b-b47e47ce7fcc) [[Cqvip]](/pdf/文献收录证明1.pdf) [[Download]](/pdf/%E5%9F%BA%E4%BA%8E%E5%A4%9A%E7%AE%97%E6%B3%95%E8%9E%8D%E5%90%88%E7%9A%84%E6%96%87%E6%9C%AC%E6%8A%84%E8%A2%AD%E6%A3%80%E6%B5%8B%E7%9A%84%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6.pdf)  
+[[HTML]](https://hbmdzk.cbpt.cnki.net/WKD3/WebPublication/paperDigest.aspx?paperID=94c8b466-eb49-4042-965a-777f33b4525a) [[Cqvip]](/pdf/文献收录证明1.pdf) [[Download]](/pdf/%E5%9F%BA%E4%BA%8E%E5%A4%9A%E7%AE%97%E6%B3%95%E8%9E%8D%E5%90%88%E7%9A%84%E6%96%87%E6%9C%AC%E6%8A%84%E8%A2%AD%E6%A3%80%E6%B5%8B%E7%9A%84%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6.pdf)  
 
 - CHEN Yiqiong, LIU Ao, FAN Guohua, BI Jiaze, **CHEN Tao**. Detection of Colorectal Polyps on CT Images Based on Deep Forest[J]. *Journal of Luoyang Institute of Science and Technology (Natural Science Edition)*, 2022, 32(01): 68-74.
 [[HTML]](http://dx.chinadoi.cn/10.3969/j.issn.1674-5043.2022.01.012) [[Cqvip]](/pdf/文献收录证明3.pdf) [[Download]](/pdf/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E6%A3%AE%E6%9E%97%E7%9A%84CT%E5%9B%BE%E5%83%8F%E7%BB%93%E7%9B%B4%E8%82%A0%E6%81%AF%E8%82%89%E6%A3%80%E6%B5%8B%E7%A0%94%E7%A9%B6.pdf)  
