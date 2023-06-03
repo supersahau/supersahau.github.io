@@ -90,7 +90,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-conferences'></span>
 # 💬 Forums and Conferences
-- *2023.05*, The 2023 Postgraduate Academic Salon of Qingdao University "Realistic and Innovative, Research and Practice", Qingdao. [[Notice]](https://mp.weixin.qq.com/s/WgkUIHAt3qgkomAyohKjaw)
+- *2023.05*, The 2023 Postgraduate Academic Salon of Qingdao University "Realistic and Innovative, Research and Practice", Qingdao. [[Notice]](https://mp.weixin.qq.com/s/iDcZ8NttA1ifqcynNizpSg)
 
 <span class='anchor' id='-internships'></span>
 # 💻 Internships
