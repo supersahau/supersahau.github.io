@@ -37,14 +37,12 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-news'></span>
 # 🔥 News 
-- *2023.05*: 🔥🔥Our paper that titled "SVM Classification Implementation of Graphic Texture Detection and Welding Defects Based on Gray Level Co-occurrence Matrix" was selected as a highly download paper and highly cited paper in CNKI's Academic Essence Database [[Link]](https://xsjy.cnki.net/UserIndex/Certificate?filename=LYGY202201010) or [[e-Certificate]](/images/入选证书.png).
+- *2024.04*: 🔥🔥Our paper that titled "Bayesian approximate broad learning system with dropout structure" was published online [[Link]](https://link.cnki.net/urlid/44.1240.TP.20240229.1727.010).
 - *2023.04*: 🔥🔥My team won the second prize in the 2022 Shandong Graduate "AI+" Innovation Competition [[Final Notice]](https://www.qlu.edu.cn/2023/0329/c7989a220592/page.htm).
-- *2023.03*: 🔥🔥The project I participated in "Application of Improved Broad Learning System in Time Series Data" was approved for Shandong Province Youth Education Science Planning Project Academic Project for College Students [[Notice]](http://www.sdgov.org.cn/newsview-2331.html).
   
  
 <span class='anchor' id='-programs'></span>
 # 📚 Programs
-- *2022.12 - 2023.12*, Shandong Province Youth Education Science Planning Project Academic Project for College Students, 23BSH334, Application of Improved Broad Learning System in Time Series Data, Participant, [[Notice]](http://www.sdgov.org.cn/newsview-2331.html) or [[List]](/Excel/山东省青少年教育科学规划项目大学生学术课题立项名单.xls). 
 - *2020.04 - 2021.04*, Student Development Support Program of the 5th "Excellent Talents Scheme" of Anhui Agricultural University, XSZZ202006, Sales Volume of New Energy Vehicles and Stock Market Fluctuations and Public Opinion Survey Analysis, Host, [[Notice]](http://xszz.ahau.edu.cn/info/1013/1793.htm) or [[List]](/Excel/安徽农业大学2020年第五期“优才计划”项目拟立项名单.xls)
 
 
@@ -56,21 +54,19 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 
 ### Chinese Papers
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Zunyi Normal University 2023</div><img src='images/IPSO2023.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Zunyi Normal University 2023</div><img src='/images/dropout-bls2024.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
+-   **CHEN Tao**, WANG Lijie, LIU Yang, XU Lili, YU Haisheng. Bayesian approximate broad learning system with dropout structure[J]. *Control Theory & Applications*, 2024, 41(x): 1-10.
+[[HTML]](https://link.cnki.net/urlid/44.1240.TP.20240229.1727.010) [[Download]](/pdf/带有Dropout结构的贝叶斯近似宽度学习系统.pdf)
+</div>
+</div>
 
 -	**CHEN Tao**. Welding Defect Image Recognition Based on Improved Particle Swarm Optimization K-means Clustering[J]. *Journal of Zunyi Normal University*, 2023, 25(02): 85-88.
 [[HTML]](http://qikan.cqvip.com/Qikan/Article/Detail?id=7109509135) [[Download]](/pdf/基于改进粒子群优化的K-means聚类的焊接缺陷图像识别.pdf)
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Journal of Luoyang Institute of Science and Technology 2022</div><img src='images/glcm2022.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
 - **CHEN Tao**, ZHANG Qingguo, LIU Ao. SVM Classification Implementation of Graphic Texture Detection and Welding Defects Based on Gray Level Co-occurrence Matrix[J]. *Journal of Luoyang Institute of Science and Technology (Natural Science Edition)*, 2022, 32(01): 53-61+67.
-[[HTML]](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2022&filename=LYGY202201010) [[Download]](/pdf/%E5%9F%BA%E4%BA%8E%E7%81%B0%E5%BA%A6%E5%85%B1%E7%94%9F%E7%9F%A9%E9%98%B5%E7%9A%84%E5%9B%BE%E5%BD%A2%E7%BA%B9%E7%90%86%E6%A3%80%E6%B5%8B%E5%8F%8A%E7%84%8A%E6%8E%A5%E7%BC%BA%E9%99%B7%E7%9A%84SVM%E5%88%86%E7%B1%BB%E5%AE%9E%E7%8E%B0.pdf)  [[🔥Highly download and cited paper]](/images/入选证书.png)
-</div>
-</div>
+[[HTML]](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2022&filename=LYGY202201010) [[Download]](/pdf/%E5%9F%BA%E4%BA%8E%E7%81%B0%E5%BA%A6%E5%85%B1%E7%94%9F%E7%9F%A9%E9%98%B5%E7%9A%84%E5%9B%BE%E5%BD%A2%E7%BA%B9%E7%90%86%E6%A3%80%E6%B5%8B%E5%8F%8A%E7%84%8A%E6%8E%A5%E7%BC%BA%E9%99%B7%E7%9A%84SVM%E5%88%86%E7%B1%BB%E5%AE%9E%E7%8E%B0.pdf)  
 
 - **CHEN Tao**, ZHANG Qingguo, HE Jinbo, ZHOU Wenzhu. Research on Feature Extraction Algorithm of Text Plagiarism Detection Based on Multi-algorithm Fusion[J]. *Journal of Hubei Minzu University (Natural Science Edition)*, 2022, 40(01): 67-72.
 [[HTML]](https://hbmdzk.cbpt.cnki.net/WKD3/WebPublication/paperDigest.aspx?paperID=94c8b466-eb49-4042-965a-777f33b4525a) [[Download]](/pdf/%E5%9F%BA%E4%BA%8E%E5%A4%9A%E7%AE%97%E6%B3%95%E8%9E%8D%E5%90%88%E7%9A%84%E6%96%87%E6%9C%AC%E6%8A%84%E8%A2%AD%E6%A3%80%E6%B5%8B%E7%9A%84%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6.pdf)  
@@ -94,7 +90,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-internships'></span>
 # 💻 Internships
-- *2022.10 - xxxx.xx*, Engineering Journal of Wuhan University Editorial Department, **Internship Editor**.
+- *2022.10 - 2023.06*, Engineering Journal of Wuhan University Editorial Department, **Internship Editor**.
 - *2021.05 - 2021.08*, Hefei Xiaolu Data Information Technology Co., Ltd., **Cloud Computing Engineer**.
   
 ---
