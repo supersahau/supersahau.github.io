@@ -37,7 +37,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-news'></span>
 # 🔥 News 
-- *2024.06*: 🔥🔥Our paper that titled "DACBN: Dual attention convolutional broad network for fine-grained visual recognition" was accepted to published in Pattern Recognition.
+*[注释]: - *2024.06*: 🔥🔥Our paper that titled "DACBN: Dual attention convolutional broad network for fine-grained visual recognition" was accepted to published in Pattern Recognition.
 - *2024.03*: 🔥🔥Our paper that titled "Bayesian approximate broad learning system with dropout structure" has been published online [[Link]](https://link.cnki.net/urlid/44.1240.TP.20240229.1727.010).
 - *2023.04*: 🔥🔥My team won the second prize in the 2022 Shandong Graduate "AI+" Innovation Competition [[Final Notice]](https://www.qlu.edu.cn/2023/0329/c7989a220592/page.htm).
   
