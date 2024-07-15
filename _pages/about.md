@@ -52,9 +52,17 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 ### English Papers
 ---
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Control Theory & Applications 2024</div><img src='/images/PR2024.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+-   **Chen Tao**, Wang L J, Yu H S, et al. DACBN: Dual attention convolutional broad network for fine-grained visual recognition[J]. *Pattern Recognition*, 2024, 156: 110749.
+[[HTML]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324005004)
+</div>
+</div>
 
 
 ### Chinese Papers
+--- 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Control Theory & Applications 2024</div><img src='/images/dropout-bls2024.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
