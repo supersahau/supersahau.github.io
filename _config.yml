@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Chen Tao"
-description              : "System Science, Qingdao University"
+description              : "Intelligent Science and Technology, Huazhong University of Science and Technology"
 repository               : "supersahau/supersahau.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -25,7 +25,7 @@ author:
   avatar           : "images/640.png"
   bio              : "Some people are part of story, but not part of endings."
   location         : "Qingdao, China"
-  employer         : #"Intelligent Science and Technology, Huazhong University of Science and Technolog"
+  employer         : #"Intelligent Science and Technology, Huazhong University of Science and Technology"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=pj7fXtgAAAAJ"
   email            : "chen.t1998@foxmail.com"
