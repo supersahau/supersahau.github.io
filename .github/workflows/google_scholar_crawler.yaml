@@ -1,68 +1,30 @@
 name: Get Citation Data
 
 on: 
-  page_build: 
-  schedule:
-    - cron:  '0 0 * * *'  # 每天0点自动运行
-  workflow_dispatch:    # 手动触发
+ page_build: 
+ schedule:
+  - cron:  '0 0 * * *'
+ workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 120  # 延长超时时间至120分钟
     steps:
-    - uses: actions/checkout@v4  # 更新到最新 checkout 版本
-      with:
-        submodules: true  # 如需拉取子模块请启用
-
-    - name: Set up Python
-      uses: actions/setup-python@v5  # 显式设置Python环境
-      with:
-        python-version: 3.12  # 指定Python版本（根据需求调整）
-
-    - name: Install system dependencies
+    - uses: actions/checkout@v2
+    - name: Install Reqs
       run: |
-        sudo apt-get update -y
-        sudo apt-get install -y python3-dev python3-venv  # 补充开发依赖（如有编译需求）
-
-    - name: Create and activate virtual environment
+        sudo apt-get install python3-setuptools
+    - name: Run
       run: |
-        python -m venv venv
-        source venv/bin/activate
-        pip install --upgrade pip
-      env:
-        PATH: ${{ runner.workspace }}/venv/bin:${{ env.PATH }}  # 添加虚拟环境到PATH
-
-    - name: Install Python dependencies
-      run: |
-        pip install -r google_scholar_crawler/requirements.txt
-      working-directory: ${{ github.workspace }}  # 明确工作目录
-
-    - name: Run crawler with proxy
-      run: |
-        cd google_scholar_crawler
-        # 以下为代理配置示例（根据实际情况启用/修改）
-        # export HTTP_PROXY="http://user:pass@proxy.example.com:8080"
-        # export HTTPS_PROXY="http://user:pass@proxy.example.com:8080"
-        python main.py  # 建议添加日志参数如 --log-level=INFO
-      env:
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-        # 如需代理可在此处设置环境变量
-
-    - name: Commit and push results
-      if: success()  # 仅当前续步骤成功时执行
-      run: |
-        cd results
+        cd ./google_scholar_crawler
+        pip3 install -r requirements.txt
+        python3 main.py
+        cd ./results
         git init
-        git config user.name "${GITHUB_ACTOR}"
-        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        git add --all
-        git commit -m "Update citation data: $(date +'%Y-%m-%d %H:%M')"
-        # 使用 SSH 密钥避免 URL 中携带 Token（推荐）
-        # 需提前在仓库 Secrets 中设置 SSH_PRIVATE_KEY
-        # echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa
-        # git remote add origin git@github.com:${GITHUB_REPOSITORY}.git
-        # 常规 HTTPS 推送（移除 --force，避免历史丢失）
-        git push --force-with-lease origin HEAD:google-scholar-stats  # 安全强制推送（仅当远程无冲突时）
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 显式注入 Token（可选）
+        git config --local user.name "${GITHUB_ACTOR}"
+        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        git add *.json
+        git commit -m "Updated Citation Data"
+        git push "${remote_repo}" HEAD:google-scholar-stats --force
+      env: 
+        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
