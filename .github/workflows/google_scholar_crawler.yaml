@@ -18,7 +18,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5  # 显式设置Python环境
       with:
-        python-version: 3.10  # 指定Python版本（根据需求调整）
+        python-version: 3.12  # 指定Python版本（根据需求调整）
 
     - name: Install system dependencies
       run: |
