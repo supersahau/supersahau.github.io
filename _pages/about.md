@@ -56,26 +56,16 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 ### English Papers
 ---
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurocomputing 2024</div><img src='/images/NeuD.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
 -   **Chen T**, Wang L J, Liu Y, et al. Double-kernel based Bayesian approximation broad learning system with dropout[J]. *Neurocomputing*, 2024, 610: 128533.
 [[HTML]](https://doi.org/10.1016/j.neucom.2024.128533)
-</div>
-</div>
 
 -   **Chen T**, Wang L J, Liu Y, et al. DACBN: Dual attention convolutional broad network for fine-grained visual recognition[J]. *Pattern Recognition*, 2024, 156: 110749.
 [[HTML]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324005004)
 
 ### Chinese Papers
 --- 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Control Theory & Applications 2024</div><img src='/images/dropout-bls2024.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
 -   **CHEN Tao**, WANG Lijie, LIU Yang, XU Lili, YU Haisheng. Bayesian approximate broad learning system with dropout structure[J]. *Control Theory & Applications*, 2024, 41(x): 1-10.
 [[HTML]](https://link.cnki.net/urlid/44.1240.TP.20240229.1727.010) 
-</div>
-</div>
 
 <span class='anchor' id='-honors-and-awards'></span>
 # 📖 Honors and Awards
