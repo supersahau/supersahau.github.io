@@ -19,7 +19,7 @@ redirect_from:
   
 <span class='anchor' id='about-me'></span>
 
-I am currently pursuing a Ph.D. degree in Intelligent Science and Technology at the School of Artificial Intelligence and Automation, Huazhong University of Science and Technology <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>.
+I am currently pursuing a Ph.D. degree in Intelligent Science and Technology at the School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, supervised by Prof. Li. <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
 
 My research interest includes: 
 - *Broad Learning System*
