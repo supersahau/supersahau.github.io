@@ -53,36 +53,9 @@
   }
 }
 
-.footer_site {
-  text-align: center;  /* 全局居中 */
-  width: 100%;
-  max-width: 1200px;  /* 可选：限制最大宽度 */
-  margin: 0 auto;     /* 水平居中 */
-  padding: 20px 0;
-}
-
-.footer_copyright {
-  display: block;
-  margin-bottom: 8px;
-  line-height: 1.5;
-}
-
-.footer_stats {
-  display: flex;      /* 使用flex布局 */
-  justify-content: center; /* 水平居中 */
-  align-items: center;    /* 垂直居中 */
-  gap: 4px;           /* 元素间距 */
-  font-size: 0.9em;
-  color: #666;
-  line-height: 1.5;
-}
-
-/* 数字样式 */
-#busuanzi_value_site_pv,
-#busuanzi_value_site_uv {
-  font-weight: bold;
-  color: #333;
-  margin: 0 2px;  /* 数字左右间距 */
+.page__footer-copyright {
+  font-family: $global-font-family;
+  font-size: $type-size-7;
 }
 
 .page__footer-follow {
