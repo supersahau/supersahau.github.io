@@ -94,17 +94,14 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 *[注释]: 🏭 新栏目图标
 
-</div>
-</font>
-
 <script src="https://giscus.app/client.js"
         data-repo="supersahau/supersahau.github.io"
-        data-repo-id="506541596"
+        data-repo-id="R_kgDOHjE2HA"
         data-category="Q&A"
         data-category-id="DIC_kwDOHjE2HM4CsW0m"
         data-mapping="pathname"
         data-strict="0"
-        data-reactions-enabled="1"
+        data-reactions-enabled="0"
         data-emit-metadata="0"
         data-input-position="bottom"
         data-theme="light"
@@ -112,3 +109,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
         crossorigin="anonymous"
         async>
 </script>
+</div>
+</font>
+
+
