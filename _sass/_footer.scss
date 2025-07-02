@@ -65,6 +65,17 @@
     list-style-type: none;
   }
 
+.footer_stats {
+  display: block; /* 确保独占一行 */
+  line-height: 1.5;
+}
+
+#busuanzi_value_site_pv,
+#busuanzi_value_site_uv {
+  font-weight: bold;
+  color: #333;
+}
+
   li {
     display: inline-block;
     padding-top: 5px;
