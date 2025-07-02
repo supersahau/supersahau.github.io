@@ -96,3 +96,19 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 </div>
 </font>
+
+<script src="https://giscus.app/client.js"
+        data-repo="supersahau/supersahau.github.io"
+        data-repo-id="506541596"
+        data-category="Q&A"
+        data-category-id="DIC_kwDOHjE2HM4CsW0m"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
