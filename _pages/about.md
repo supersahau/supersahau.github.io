@@ -68,7 +68,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 ### Chinese Papers
 --- 
--   **CHEN Tao**, WANG Lijie, LIU Yang, XU Lili, YU Haisheng. Bayesian approximate broad learning system with dropout structure[J]. *Control Theory & Applications*, 2024, 41(x): 1-10.
+-   **CHEN Tao**, WANG Lijie, LIU Yang, XU Lili, et al. Bayesian approximate broad learning system with dropout structure[J]. *Control Theory & Applications*, 2024, 41(x): 1-10.
 [[HTML]](https://link.cnki.net/urlid/44.1240.TP.20240229.1727.010) 
 
 <span class='anchor' id='-honors-and-awards'></span>
