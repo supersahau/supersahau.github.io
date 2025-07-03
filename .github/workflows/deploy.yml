@@ -7,23 +7,16 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
     steps:
-    - uses: actions/checkout@v4
-    
-    - name: Install SSH Key
-      run: |
-        mkdir -p ~/.ssh
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        cat >>~/.ssh/config <<END
-        Host ${{ secrets.SERVER_IP }}
-          StrictHostKeyChecking no
-          UserKnownHostsFile=/dev/null
-        END
-    
-    - name: Deploy via Rsync
+    - uses: actions/checkout@v3
+
+    - name: Add SSH Key
+      uses: webfactory/ssh-agent@v0.7.0
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: Deploy via RSync
       run: |
         rsync -avz --delete --exclude='.git/' \
-          -e "ssh -i ~/.ssh/id_rsa" \
-          ./ ${{ secrets.DEPLOY_USER }}@${{ secrets.SERVER_IP }}:/var/www/chentaomm.cn/html/
+          -e "ssh -o StrictHostKeyChecking=no" \
+          ./ ${{ secrets.DEPLOY_USER }}@${{ secrets.SERVER_IP }}:/var/www/chentaohmm.cn/html/
