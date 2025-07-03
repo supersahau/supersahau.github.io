@@ -1,16 +1,42 @@
-name: Deploy to Amazon Linux
-on: [push]
+name: Deploy to Amazon Linux 2023 Server
+
+on:
+  push:
+    branches: [ main ]  # 只在main分支推送时触发
+    paths-ignore:       # 忽略这些文件的变更
+      - 'README.md'
+      - '.gitignore'
+
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # 使用GitHub的Ubuntu虚拟机
+    
     steps:
-      - uses: actions/checkout@v4
-      - name: Add SSH Key
-        uses: webfactory/ssh-agent@v0.7.0
-        with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-      - name: Deploy via Rsync
-        run: |
-          rsync -avz --delete --exclude='.git/' \
-            -e "ssh -o StrictHostKeyChecking=no" \
-            ./ ${{ secrets.DEPLOY_USER }}@${{ secrets.SERVER_IP }}:/var/www/chentaomm.cn/html/
+    # 第一步：检出代码
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # 获取完整git历史
+
+    # 第二步：设置SSH密钥
+    - name: Add SSH Key
+      uses: webfactory/ssh-agent@v0.7.0
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    # 第三步：将服务器添加到known_hosts
+    - name: Add Server to Known Hosts
+      run: |
+        mkdir -p ~/.ssh
+        ssh-keyscan ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
+
+    # 第四步：同步文件到服务器
+    - name: Rsync Deployment
+      run: |
+        rsync -avz --delete \
+          --exclude='.git/' \
+          --exclude='.github/' \
+          -e "ssh -o StrictHostKeyChecking=no" \
+          ./ ${{ secrets.DEPLOY_USER }}@${{ secrets.SERVER_IP }}:/var/www/chentaomm.cn/html/
+      env:
+        RSYNC_RSH: "ssh -i ${{ secrets.SSH_PRIVATE_KEY }}"
