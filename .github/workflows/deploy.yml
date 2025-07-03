@@ -1,4 +1,4 @@
-name: Secure Deploy
+name: Deploy to Server
 
 on:
   push:
@@ -11,15 +11,19 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Setup SSH
+    - name: Install SSH Key
       run: |
         mkdir -p ~/.ssh
         echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        echo "${{ secrets.SERVER_IP }} ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI..." >> ~/.ssh/known_hosts
+        cat >>~/.ssh/config <<END
+        Host ${{ secrets.SERVER_IP }}
+          StrictHostKeyChecking no
+          UserKnownHostsFile=/dev/null
+        END
     
-    - name: Rsync Files
+    - name: Deploy via Rsync
       run: |
-        rsync -avz --delete \
-          -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" \
+        rsync -avz --delete --exclude='.git/' \
+          -e "ssh -i ~/.ssh/id_rsa" \
           ./ ${{ secrets.DEPLOY_USER }}@${{ secrets.SERVER_IP }}:/var/www/chentaomm.cn/html/
