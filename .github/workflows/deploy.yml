@@ -1,29 +1,16 @@
-name: Deploy to Server
-
-on:
-  push:
-    branches: [ main ]
-
+name: Deploy to Amazon Linux
+on: [push]
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-    
-      - name: Setup SSH
+      - uses: actions/checkout@v4
+      - name: Add SSH Key
+        uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Deploy via Rsync
         run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          # 安全地添加服务器到 known_hosts（避免完全禁用检查）
-          ssh-keyscan ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
-    
-      - name: Rsync Deployment
-        run: |
-          rsync -avz --delete \
-            --exclude='.git/' \
-            --exclude='.github/' \
-            -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=yes" \
+          rsync -avz --delete --exclude='.git/' \
+            -e "ssh -o StrictHostKeyChecking=no" \
             ./ ${{ secrets.DEPLOY_USER }}@${{ secrets.SERVER_IP }}:/var/www/chentaomm.cn/html/
