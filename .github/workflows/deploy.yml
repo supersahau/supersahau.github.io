@@ -1,0 +1,16 @@
+name: Deploy to Amazon Linux
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add SSH Key
+        uses: webfactory/ssh-agent@v0.7.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Deploy via Rsync
+        run: |
+          rsync -avz --delete --exclude='.git/' \
+            -e "ssh -o StrictHostKeyChecking=no" \
+            ./ ${{ secrets.DEPLOY_USER }}@${{ secrets.SERVER_IP }}:/var/www/chentaomm.cn/html/
