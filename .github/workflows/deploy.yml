@@ -9,21 +9,21 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
     
-    - name: Install SSH Key
-      run: |
-        mkdir -p ~/.ssh
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        cat >>~/.ssh/config <<END
-        Host ${{ secrets.SERVER_IP }}
-          StrictHostKeyChecking no
-          UserKnownHostsFile=/dev/null
-        END
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          # 安全地添加服务器到 known_hosts（避免完全禁用检查）
+          ssh-keyscan ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts
     
-    - name: Deploy via Rsync
-      run: |
-        rsync -avz --delete --exclude='.git/' \
-          -e "ssh -i ~/.ssh/id_rsa" \
-          ./ ${{ secrets.DEPLOY_USER }}@${{ secrets.SERVER_IP }}:/var/www/chentaomm.cn/html/
+      - name: Rsync Deployment
+        run: |
+          rsync -avz --delete \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=yes" \
+            ./ ${{ secrets.DEPLOY_USER }}@${{ secrets.SERVER_IP }}:/var/www/chentaomm.cn/html/
