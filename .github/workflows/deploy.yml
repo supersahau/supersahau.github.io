@@ -1,8 +1,25 @@
-- name: Deploy
-  uses: appleboy/scp-action@master
-  with:
-    host: ${{ secrets.SERVER_IP }}
-    username: ${{ secrets.DEPLOY_USER }}
-    key: ${{ secrets.SSH_PRIVATE_KEY }}
-    source: "./"
-    target: "/var/www/chentaomm.cn/html/"
+name: Secure Deploy
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup SSH
+      run: |
+        mkdir -p ~/.ssh
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        echo "${{ secrets.SERVER_IP }} ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAI..." >> ~/.ssh/known_hosts
+    
+    - name: Rsync Files
+      run: |
+        rsync -avz --delete \
+          -e "ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no" \
+          ./ ${{ secrets.DEPLOY_USER }}@${{ secrets.SERVER_IP }}:/var/www/chentaomm.cn/html/
