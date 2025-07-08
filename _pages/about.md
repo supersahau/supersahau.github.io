@@ -103,7 +103,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
         data-strict="0"
         data-reactions-enabled="0"
         data-emit-metadata="0"
-        data-input-position="bottom"
+        data-input-position="top"
         data-theme="light"
         data-lang="en"
         crossorigin="anonymous"
