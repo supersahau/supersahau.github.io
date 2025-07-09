@@ -16,9 +16,8 @@ google_analytics_id      :  # get google_analytics_id from https://analytics.goo
 
 # SEO Related
 google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
-
+bing_site_verification   :  362840A350AA3941938B477FC16D350E
+baidu_site_verification  :  codeva-LI2OW10taj
 # Site Author
 author:
   name             : "Chen Tao"
