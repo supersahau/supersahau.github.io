@@ -38,10 +38,9 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-news'></span>
 # 🔥 News 
-- *2024.10*: 🔥🔥Mr. Chen has been awarded the National Scholarship for Postgraduates.
+- *2025.06*: 🔥🔥Mr. Chen was awarded the Outstanding Master's Thesis of Qingdao University for the year 2025 [[Certificate]](/images/qduyouxiuxueweilunwen.jpg).
+- *2024.10*: 🔥🔥Mr. Chen was awarded the National Scholarship for Postgraduates [[Certificate](/images/guojiang.jpg).
 - *2024.09*: 🔥🔥Our paper that titled "Double-kernel based Bayesian approximation broad learning system with dropout" was accepted to published in Neurocomputing [[Link]](https://doi.org/10.1016/j.neucom.2024.128533).
-- *2024.07*: 🔥🔥Our presentation theme "Bayesian approximate broad learning system with dropout structure" won the Outstanding Academic Innovation Achievement Award of the 3rd Graduate Student Innovation Achievement Exhibition of Qingdao University in the Summer Semester of 2024.
-  
  
 <span class='anchor' id='-programs'></span>
 # 📚 Programs
@@ -73,11 +72,11 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-honors-and-awards'></span>
 # 📖 Honors and Awards
-- *Year 2024* Won National scholarship for Postgraduates (Master).
-- *Year 2024* Won **The Outstanding Academic Innovation Achievement Award** of the 3rd Graduate Student Innovation Achievement Exhibition of Qingdao University in the Summer Semester of 2024.
-- *Year 2022* Won **The second prize** of Shandong Graduate "AI+" Innovation Competition.
-- *Year 2020* Won **The second prize** of the 18th SuperMap Cup GIS Competition, **the third prize** of the 10th National College Students' Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the first prize** of Anhui Computer Game Competition for College Students, etc.
-- *Year 2019* Won **The third prize** of the 9th National College Students' Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the third prize** of graduate group of Anhui College Studens' Statistical Modeling Contest, etc.
+- *Year 2024* Won **the Outstanding Master's Thesis** of Qingdao University [[Certificate]](/images/qduyouxiuxueweilunwen.jpg).
+- *Year 2024* Won **the National scholarship for Postgraduates** (Master) [[Certificate]](/images/guojiang.jpg),**The Outstanding Academic Innovation Achievement Award** of the 3rd Graduate Student Innovation Achievement Exhibition of Qingdao University in the Summer Semester of 2024.
+- *Year 2022* Won **the second prize** of Shandong Graduate "AI+" Innovation Competition.
+- *Year 2020* Won **the second prize** of the 18th SuperMap Cup GIS Competition, **the third prize** of the 10th National College Students' Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the first prize** of Anhui Computer Game Competition for College Students, etc.
+- *Year 2019* Won **the third prize** of the 9th National College Students' Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the third prize** of graduate group of Anhui College Studens' Statistical Modeling Contest, etc.
 
 <span class='anchor' id='-conferences'></span>
 # 💬 Forums and Conferences
