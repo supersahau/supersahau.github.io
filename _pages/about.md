@@ -73,7 +73,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 <span class='anchor' id='-honors-and-awards'></span>
 # 📖 Honors and Awards
 - *Year 2024* Won **the Outstanding Master's Thesis** of Qingdao University [[Certificate]](/images/qduyouxiuxueweilunwen.jpg).
-- *Year 2024* Won **the National scholarship for Postgraduates** (Master) [[Certificate]](/images/guojiang.jpg),**The Outstanding Academic Innovation Achievement Award** of the 3rd Graduate Student Innovation Achievement Exhibition of Qingdao University in the Summer Semester of 2024.
+- *Year 2024* Won **the National scholarship for Postgraduates** (Master) [[Certificate]](/images/guojiang.jpg),**the Outstanding Academic Innovation Achievement Award** of the 3rd Graduate Student Innovation Achievement Exhibition of Qingdao University in the Summer Semester of 2024.
 - *Year 2022* Won **the second prize** of Shandong Graduate "AI+" Innovation Competition.
 - *Year 2020* Won **the second prize** of the 18th SuperMap Cup GIS Competition, **the third prize** of the 10th National College Students' Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the first prize** of Anhui Computer Game Competition for College Students, etc.
 - *Year 2019* Won **the third prize** of the 9th National College Students' Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the third prize** of graduate group of Anhui College Studens' Statistical Modeling Contest, etc.
