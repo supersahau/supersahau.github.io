@@ -57,13 +57,13 @@ I helped my friends sort out the review material for the postgraduate entrance e
 ---
 *[注释]: -  **Chen T**, Wang L J, C. L. Philip Chen. Sparse Bayesian broad learning system via adaptive lasso priors for robust regression[J]. *IEEE Transactions on Neural Networks and Learning Systems*, 2025,
 
-*[注释]: -  Wang Y J, Wang L J, **Chen T**. Broad learning system via adaptive maximum weighted correntropy[J]. *Neural Networks*, 2025,
-
 -   **Chen T**, Wang L J, Liu Y, et al. Double-kernel based Bayesian approximation broad learning system with dropout[J]. *Neurocomputing*, 2024, 610: 128533.
 [[HTML]](https://doi.org/10.1016/j.neucom.2024.128533)
 
 -   **Chen T**, Wang L J, Liu Y, et al. DACBN: Dual attention convolutional broad network for fine-grained visual recognition[J]. *Pattern Recognition*, 2024, 156: 110749.
 [[HTML]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324005004)
+
+*[注释]: -  Wang Y J, Wang L J, **Chen T**. Broad learning system via adaptive maximum weighted correntropy[J]. *Neural Networks*, 2025,
 
 ### Chinese Papers
 --- 
@@ -72,7 +72,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-honors-and-awards'></span>
 # 📖 Honors and Awards
-- *Year 2024* Won **the Outstanding Master's Thesis** of Qingdao University [[Certificate]](/images/qduyouxiuxueweilunwen.jpg).
+- *Year 2025* Won **the Outstanding Master's Thesis** of Qingdao University [[Certificate]](/images/qduyouxiuxueweilunwen.jpg).
 - *Year 2024* Won **the National scholarship for Postgraduates** (Master) [[Certificate]](/images/guojiang.jpg),**the Outstanding Academic Innovation Achievement Award** of the 3rd Graduate Student Innovation Achievement Exhibition of Qingdao University in the Summer Semester of 2024.
 - *Year 2022* Won **the second prize** of Shandong Graduate "AI+" Innovation Competition.
 - *Year 2020* Won **the second prize** of the 18th SuperMap Cup GIS Competition, **the third prize** of the 10th National College Students' Market Survey and Analysis Competition and **the first prize** of Anhui Division, **the first prize** of Anhui Computer Game Competition for College Students, etc.
