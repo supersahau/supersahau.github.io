@@ -57,7 +57,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 ---
 *[注释]: -  **Chen T**, Wang L J<sup>*</sup>, C. L. Philip Chen. Sparse Bayesian broad learning system via adaptive lasso priors for robust regression[J]. *IEEE Transactions on Neural Networks and Learning Systems*, 2025,
 
--   **Chen T**, Wang L J, Liu Y<sup>*</sup>, et al. Double-kernel based Bayesian approximation broad learning system with dropout[J]. *Neurocomputing*, 2024, 610: 128533.
+-   **Chen T**, Wang L J, Liu Y <sup txt='*'></sup>, et al. Double-kernel based Bayesian approximation broad learning system with dropout[J]. *Neurocomputing*, 2024, 610: 128533.
 [[HTML]](https://doi.org/10.1016/j.neucom.2024.128533)
 
 -   **Chen T**, Wang L J<sup>*</sup>, Liu Y, et al. DACBN: Dual attention convolutional broad network for fine-grained visual recognition[J]. *Pattern Recognition*, 2024, 156: 110749.
