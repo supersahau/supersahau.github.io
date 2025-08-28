@@ -61,9 +61,9 @@ I helped my friends sort out the review material for the postgraduate entrance e
 [[HTML]](https://doi.org/10.1016/j.neucom.2024.128533)
 
 -   **Chen T**, Wang L J, Liu Y, et al. DACBN: Dual attention convolutional broad network for fine-grained visual recognition[J]. *Pattern Recognition*, 2024, 156: 110749.
-[[HTML]](https://www.sciencedirect.com/science/article/abs/pii/S0031320324005004)
+[[HTML]](https://doi.org/10.1016/j.patcog.2024.110749)
 
-*[注释]: -  Wang Y J, Wang L J, **Chen T**. Broad learning system via adaptive maximum weighted correntropy[J]. *Neural Networks*, 2025,
+*[注释]: -  Wang Y J, Wang L J, **Chen T**. Broad learning system via adaptive maximum weighted correntropy[J]. *Neural Networks*, 2025, 108032. [[HTML]](https://doi.org/10.1016/j.neunet.2025.108032)
 
 ### Chinese Papers
 --- 
