@@ -38,6 +38,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-news'></span>
 # 🔥 News 
+*[注释]: - *2025.00*: 🔥🔥Our paper that titled "Sparse Bayesian Broad Learning System via Adaptive Lasso Priors for Robust Regression" was accepted to published in IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS [[Link]]().
 - *2025.08*: 🔥🔥Our paper that titled "Broad learning system via adaptive maximum weighted correntropy" was accepted to published in Neural Networks [[Link]](https://doi.org/10.1016/j.neunet.2025.108032).
 - *2025.06*: 🔥🔥Mr. Chen was awarded the Outstanding Master's Thesis of Qingdao University for the year 2025 [[Certificate]](/images/qduyouxiuxueweilunwen.jpg).
 - *2024.10*: 🔥🔥Mr. Chen was awarded the National Scholarship for Postgraduates [[Certificate]](/images/guojiang.jpg).
