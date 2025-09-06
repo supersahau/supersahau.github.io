@@ -1,0 +1,16 @@
+{
+  "id": "5015402",
+  "name": "test",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "39192165",
+      "name": "web of science",
+      "font_class": "a-webofscience",
+      "unicode": "e92a",
+      "unicode_decimal": 59690
+    }
+  ]
+}
