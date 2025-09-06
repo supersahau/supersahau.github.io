@@ -127,7 +127,7 @@
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
          {% if author.wos %}
-        <a href="{{ author.wos }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
+        <a href="https://www.webofscience.com/wos/author/record/{{ author.record }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
