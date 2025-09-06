@@ -29,7 +29,14 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true" style="color: #3498db;"></i> Website</a></li>
       {% endif %}
       {% if author.wos %}
-      <li><a href="https://www.webofscience.com/wos/author/record/{{ author.wos }}"><i class="ai ai-clarivate ai-fw" aria-hidden="true" style="color: #0064a5;"></i> Web of Science</a></li>
+      <li><a href="https://www.webofscience.com/wos/author/record/{{ author.wos }}">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 86.6" style="height: 1.1em; vertical-align: -0.15em; margin-right: 4px;">
+      <title>Web of Science</title>
+      <path d="M75,0 A50,50 0 0,1 100,43.3 A50,50 0 0,1 25,86.6 L50,86.6 A50,50 0 0,0 50,0 Z" fill="#5F259F"/>
+      <path d="M25,86.6 A50,50 0 0,1 0,43.3 A50,50 0 0,1 75,0 L50,0 A50,50 0 0,0 50,86.6 Z" fill="#000000"/>
+      <path d="M100,43.3 A50,50 0 0,1 25,86.6 A50,50 0 0,1 50,0 L75,0 A50,50 0 0,0 100,43.3 Z" fill="#349F45"/>
+    </svg> Web of Science
+</a></li>
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true" style="color: #e67e22;"></i> Email</a></li>
@@ -126,8 +133,15 @@
       {% if author.uri %}
         <a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true" style="color: #3498db;"></i></a>
       {% endif %}
-         {% if author.wos %}
-        <a href="https://www.webofscience.com/wos/author/record/{{ author.wos }}"><i class="ai ai-clarivate ai-fw" aria-hidden="true" style="color: #0064a5;"></i></a>
+      {% if author.wos %}
+      <a href="https://www.webofscience.com/wos/author/record/{{ author.wos }}">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 86.6" style="height: 1.1em; vertical-align: -0.15em;">
+      <title>Web of Science</title>
+      <path d="M75,0 A50,50 0 0,1 100,43.3 A50,50 0 0,1 25,86.6 L50,86.6 A50,50 0 0,0 50,0 Z" fill="#5F259F"/>
+      <path d="M25,86.6 A50,50 0 0,1 0,43.3 A50,50 0 0,1 75,0 L50,0 A50,50 0 0,0 50,86.6 Z" fill="#000000"/>
+      <path d="M100,43.3 A50,50 0 0,1 25,86.6 A50,50 0 0,1 50,0 L75,0 A50,50 0 0,0 100,43.3 Z" fill="#349F45"/>
+    </svg>
+</a>
       {% endif %}
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true" style="color: #e67e22;"></i></a>
