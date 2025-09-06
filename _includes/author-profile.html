@@ -2,7 +2,6 @@
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
 
-c
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
   <div class="author__avatar">
@@ -30,7 +29,7 @@ c
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true" style="color: #3498db;"></i> Website</a></li>
       {% endif %}
       {% if author.wos %}
-      <li><a href="https://www.webofscience.com/wos/author/record/{{ author.wos }}"><i class=icon-a-webofscience" aria-hidden="true" style="color: #0064a5;"></i> Web of Science</a></li>
+      <li><a href="https://www.webofscience.com/wos/author/record/{{ author.wos }}"><i class="icon-a-webofscience" aria-hidden="true" style="color: #0064a5;"></i> Web of Science</a></li>
       {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true" style="color: #e67e22;"></i> Email</a></li>
