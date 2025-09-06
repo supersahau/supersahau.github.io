@@ -328,9 +328,9 @@
 
 @font-face {
   font-family: 'iconfont';
-  src: url('iconfont.woff2?t=1757145161265') format('woff2'),
-       url('iconfont.woff?t=1757145161265') format('woff'),
-       url('iconfont.ttf?t=1757145161265') format('truetype');
+  src: url('../fonts/iconfont.woff2?t=1757145161265') format('woff2'),
+       url('../fonts/iconfont.woff?t=1757145161265') format('woff'),
+       url('../fonts/iconfont.ttf?t=1757145161265') format('truetype');
 }
 .iconfont {
   font-family: "iconfont" !important;
