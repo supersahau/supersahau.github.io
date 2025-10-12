@@ -39,6 +39,49 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+/* 最终全局字体设置： Times New Roman 优先，楷体辅助 */
+
+/* 定义一个变量来存储您的字体栈，方便管理 */
+$custom-font-stack: "Times New Roman", Times, 
+                     "KaiTi", "楷体", "STKaiti", "华文楷体", DFKaiShu-SB, 
+                     serif !important; 
+
+/* 默认将字体应用到所有元素，但排除图标 */
+body,
+.page__content,
+.page__content p, 
+.page__content li, 
+h1, h2, h3, h4, h5, h6, 
+.masthead,         
+.masthead__title,  
+.nav__list-item a, 
+.masthead__menu-item a,
+.sidebar *,         
+.author__content, 
+.page__footer,
+.footer_site,
+.footer_copyright,
+.footer_site span 
+{
+    font-family: $custom-font-stack; 
+    font-size: 1.02em !important; 
+}
+/* 显式重置所有图标集（Font Awesome 和 Academicons）的字体 */
+
+/* 1. 重置 Font Awesome 图标 */
+.fa, .fas, .far, .fal, .fab, .svg-inline--fa { 
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'Font Awesome 5 Solid', FontAwesome, sans-serif !important;
+}
+
+/* 2. 重置 Academicons 图标 (解决 Web of Science 和 ORCID 图标消失的问题) */
+.ai, .ai-fw, .ai-pubmed-square, .ai-clarivate, .ai-orcid-square, .ai-dblp {
+    font-family: "Academicons" !important;
+}
+
+/* 3. 确保侧边栏内的所有图标都被正确重置 */
+.sidebar .fa, .sidebar .fab, .sidebar .fas, .sidebar .ai {
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands', 'Font Awesome 5 Solid', FontAwesome, Academicons, sans-serif !important;
+}
 
 .paper-box {
     display: flex;
