@@ -52,6 +52,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 ### Graduate Theses
 ---
 - Be coming soon.
+
 *[注释]: -  **CHEN Tao**. Research on Sparse Bayesian Broad Learning System-Based Approaches for Regression Prediction[D]. Qingdao: *Qingdao University*, 2025.
 ### English Papers
 ---
