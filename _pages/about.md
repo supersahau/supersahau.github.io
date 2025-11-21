@@ -52,7 +52,7 @@ redirect_from:
  
     <span class='anchor' id='-programs'></span>
     # 📚 Programs
-    - *2020.04 - 2021.04*, Student Development Support Program of the 5th "Excellent Talents Scheme" of Anhui Agricultural University, XSZZ202006, Sales Volume of New Energy Vehicles and Stock Market Fluctuations and Public Opinion Survey Analysis, Host, [[Notice]](http://xszz.ahau.edu.cn/info/1013/1793.htm) or [[List]](/Excel/安徽农业大学2020年第五期「优才计划」项目拟立项名单.xls)
+    - *2020.04 - 2021.04*, Student Development Support Program of the 5th "Excellent Talents Scheme" of Anhui Agricultural University, XSZZ202006, Sales Volume of New Energy Vehicles and Stock Market Fluctuations and Public Opinion Survey Analysis, Host, [[Notice]](http://xszz.ahau.edu.cn/info/1013/1793.htm) or [[List]](/Excel/安徽农业大学2020年第五期"优才计划"项目拟立项名单.xls)
     </div>
   </div>
 
@@ -74,7 +74,7 @@ redirect_from:
     [[HTML]](https://doi.org/10.1016/j.neucom.2024.128533)
 
     -   **Chen T**, Wang L J <sup><svg focusable="false" viewBox="0 0 102 128" height="20" title="Author email or social media contact details icon" class="icon icon-envelope react-xocs-author-icon u-fill-grey8"><path d="M55.8 57.2c-1.78 1.31-5.14 1.31-6.9 0L17.58 34h69.54L55.8 57.19zM0 32.42l42.94 32.62c2.64 1.95 6.02 2.93 9.4 2.93s6.78-.98 9.42-2.93L102 34.34V24H0zM92 88.9L73.94 66.16l-8.04 5.95L83.28 94H18.74l18.38-23.12-8.04-5.96L10 88.94V51.36L0 42.9V104h102V44.82l-10 8.46V88.9"></path></svg></sup>, Liu Y, et al. DACBN: Dual attention convolutional broad network for fine-grained visual recognition[J]. *Pattern Recognition*, 2024, 156: 110749.
-    [[HTML]](https://doi.org10.1016/j.patcog.2024.110749)
+    [[HTML]](https://doi.org/10.1016/j.patcog.2024.110749)
 
     -  Wang Y J, Wang L J <sup><svg focusable="false" viewBox="0 0 102 128" height="20" title="Author email or social media contact details icon" class="icon icon-envelope react-xocs-author-icon u-fill-grey8"><path d="M55.8 57.2c-1.78 1.31-5.14 1.31-6.9 0L17.58 34h69.54L55.8 57.19zM0 32.42l42.94 32.62c2.64 1.95 6.02 2.93 9.4 2.93s6.78-.98 9.42-2.93L102 34.34V24H0zM92 88.9L73.94 66.16l-8.04 5.95L83.28 94H18.74l18.38-23.12-8.04-5.96L10 88.94V51.36L0 42.9V104h102V44.82l-10 8.46V88.9"></path></svg></sup>, **Chen T**. Broad learning system via adaptive maximum weighted correntropy[J]. *Neural Networks*, 2026, 193: 108032. [[HTML]](https://doi.org/10.1016/j.neunet.2025.108032)
 
@@ -136,84 +136,84 @@ redirect_from:
   </div>
 </div>
 
-<!-- 页面导航按钮 -->
-<div class="page-navigation">
-  <button class="page-nav-btn" onclick="switchPage(-1)">← Previous</button>
+<!-- 简单的页面导航 -->
+<div class="simple-page-nav">
+  <button class="nav-btn prev-btn" onclick="switchPage(-1)">← 上一页</button>
   <span class="page-indicator">
-    <span class="page-current">1</span> / <span class="page-total">5</span>
+    <span class="current-page">1</span> / <span class="total-pages">5</span>
   </span>
-  <button class="page-nav-btn" onclick="switchPage(1)">Next →</button>
+  <button class="nav-btn next-btn" onclick="switchPage(1)">下一页 →</button>
 </div>
 
 <style>
 .page-container {
   position: relative;
-  min-height: 500px;
+  min-height: 60vh;
 }
 
 .page {
   display: none;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 .page.active {
   display: block;
-  opacity: 1;
 }
 
-/* 页面导航样式 */
-.page-navigation {
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* 简单的页面导航样式 */
+.simple-page-nav {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
   margin-top: 40px;
   padding: 20px;
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid #eaeaea;
 }
 
-.page-nav-btn {
-  background: #007bff;
+.nav-btn {
+  background: #2E86AB;
   color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
   font-size: 14px;
+  transition: background-color 0.3s ease;
 }
 
-.page-nav-btn:hover {
-  background: #0056b3;
+.nav-btn:hover {
+  background: #1a5a7a;
 }
 
-.page-nav-btn:disabled {
-  background: #6c757d;
+.nav-btn:disabled {
+  background: #cccccc;
   cursor: not-allowed;
 }
 
 .page-indicator {
   font-size: 16px;
+  color: #666;
   font-weight: 500;
-  color: #495057;
 }
 
-/* 保持原有样式不变 */
+/* 保持原有paper-box-text样式不变 */
 .paper-box-text {
-  /* 保持您原有的样式 */
-}
-
-.anchor {
-  /* 保持您原有的样式 */
+  /* 您原有的所有样式都保持不变 */
 }
 </style>
 
 <script>
-// 页面切换逻辑
+// 页面状态
 let currentPage = 1;
 const totalPages = 5;
 
+// 页面切换函数
 function switchPage(direction) {
   const newPage = currentPage + direction;
   
@@ -228,27 +228,40 @@ function switchPage(direction) {
     currentPage = newPage;
     
     // 更新页面指示器
-    document.querySelector('.page-current').textContent = currentPage;
-    
-    // 更新URL
-    updateURL();
+    document.querySelector('.current-page').textContent = currentPage;
     
     // 滚动到顶部
     window.scrollTo(0, 0);
+    
+    // 更新按钮状态
+    updateNavButtons();
+    
+    // 更新URL
+    updateURL();
   }
 }
 
+// 更新导航按钮状态
+function updateNavButtons() {
+  const prevBtn = document.querySelector('.prev-btn');
+  const nextBtn = document.querySelector('.next-btn');
+  
+  prevBtn.disabled = currentPage === 1;
+  nextBtn.disabled = currentPage === totalPages;
+}
+
+// 更新URL
 function updateURL() {
-  const pageNames = {
+  const pageMap = {
     1: 'about-me',
-    2: 'news',
-    3: 'publications', 
+    2: 'news', 
+    3: 'publications',
     4: 'honors-and-awards',
     5: 'messages'
   };
   
-  const hash = pageNames[currentPage];
-  history.replaceState(null, null, `#${hash}`);
+  const hash = pageMap[currentPage];
+  history.replaceState(null, null, `/#${hash}`);
 }
 
 // 处理URL锚点导航
@@ -269,23 +282,16 @@ function handleHashNavigation() {
   if (hash && pageMap[hash]) {
     const targetPage = pageMap[hash];
     if (targetPage !== currentPage) {
-      // 直接切换到目标页面
+      // 切换到目标页面
       document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
       document.getElementById(`page-${targetPage}`).classList.add('active');
       currentPage = targetPage;
-      document.querySelector('.page-current').textContent = currentPage;
+      document.querySelector('.current-page').textContent = currentPage;
+      updateNavButtons();
+      window.scrollTo(0, 0);
     }
   }
 }
-
-// 初始化
-document.addEventListener('DOMContentLoaded', function() {
-  // 设置初始页面
-  handleHashNavigation();
-  
-  // 监听hash变化
-  window.addEventListener('hashchange', handleHashNavigation);
-});
 
 // 键盘导航支持
 document.addEventListener('keydown', function(event) {
@@ -294,5 +300,17 @@ document.addEventListener('keydown', function(event) {
   } else if (event.key === 'ArrowRight') {
     switchPage(1);
   }
+});
+
+// 初始化
+document.addEventListener('DOMContentLoaded', function() {
+  // 初始处理URL
+  handleHashNavigation();
+  
+  // 初始化按钮状态
+  updateNavButtons();
+  
+  // 监听hash变化
+  window.addEventListener('hashchange', handleHashNavigation);
 });
 </script>
