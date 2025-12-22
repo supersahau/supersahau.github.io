@@ -8,18 +8,34 @@ redirect_from:
   - /about.html
 ---
 
+{% comment %} 
+  自动判断使用 CDN 还是 Raw 链接 
+  注意：这里的 @google-scholar-stats 是因为你的 YML 把数据推到了这个特定分支
+{% endcomment %}
+
 {% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+  {% assign base_path = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@google-scholar-stats/" %}
 {% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+  {% assign base_path = "https://raw.githubusercontent.com/" | append: site.repository | append: "/google-scholar-stats/" %}
 {% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
+{% comment %} 
+  注意：
+  1. 你的 YML 脚本里，git init 是在 results 文件夹内部执行的。
+  2. 这意味着推送到分支后，json 文件是在根目录的，而不是在 results/ 目录下。
+  3. 所以这里不需要再加 "results/" 前缀。
+{% endcomment %}
+
+{% assign gs_url = base_path | append: "gs_data_shieldsio.json" %}
+{% assign scopus_url = base_path | append: "scopus_data_shieldsio.json" %}
 <div class='paper-box-text' markdown="1">
   
 <span class='anchor' id='about-me'></span>
 
-I am currently pursuing a Ph.D. degree in Intelligent Science and Technology at the School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, supervised by Prof. Li Wei. <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations"></a>
-
+I am currently pursuing a Ph.D. degree in Intelligent Science and Technology at the School of Artificial Intelligence and Automation, Huazhong University of Science and Technology, supervised by Prof. Li Wei. <a href='https://scholar.google.com/citations?user=pj7fXtgAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ gs_url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Google%20Scholar%20Citations"></a>
+<a href='https://www.scopus.com/authid/detail.uri?authorId=59208226300'>
+  <img src="https://img.shields.io/endpoint?url={{ scopus_url | url_encode }}&logo=scopus&labelColor=f6f6f6&color=orange&style=flat&label=Scopus%20Citations">
+</a>
 My research interest includes: 
 - *Broad Learning System*
 - *Deep Learning*
@@ -37,8 +53,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-news'></span>
 # 🔥 News 
-*[注释]: - *2025.00*: 🔥🔥Our paper that titled "Sparse Bayesian Broad Learning System via Adaptive Lasso Priors for Robust Regression" was accepted to published in IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS [[Link]]().
-- *2025.08*: 🔥🔥Our paper that titled "Broad learning system via adaptive maximum weighted correntropy" was accepted to published in Neural Networks [[Link]](https://doi.org/10.1016/j.neunet.2025.108032).
+ - *2025.11*: 🔥🔥Our paper that titled "Sparse Bayesian Broad Learning System via Adaptive Lasso Priors for Robust Regression" was accepted to published in IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS [[Link]](https://doi.org/10.1109/TNNLS.2025.3630247).
 - *2025.06*: 🔥🔥Mr. Chen was awarded the Outstanding Master's Thesis of Qingdao University for the year 2025 [[Certificate]](/images/qduyouxiuxueweilunwen.jpg).
 - *2024.10*: 🔥🔥Mr. Chen was awarded the National Scholarship for Postgraduates [[Certificate]](/images/guojiang.jpg).
  
@@ -55,7 +70,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 ### English Papers
 ---
-*[注释]: -  **Chen T**, Wang L J <sup><svg focusable="false" viewBox="0 0 102 128" height="20" title="Author email or social media contact details icon" class="icon icon-envelope react-xocs-author-icon u-fill-grey8"><path d="M55.8 57.2c-1.78 1.31-5.14 1.31-6.9 0L17.58 34h69.54L55.8 57.19zM0 32.42l42.94 32.62c2.64 1.95 6.02 2.93 9.4 2.93s6.78-.98 9.42-2.93L102 34.34V24H0zM92 88.9L73.94 66.16l-8.04 5.95L83.28 94H18.74l18.38-23.12-8.04-5.96L10 88.94V51.36L0 42.9V104h102V44.82l-10 8.46V88.9"></path></svg></sup>, C. L. Philip Chen. Sparse Bayesian broad learning system via adaptive lasso priors for robust regression[J]. *IEEE Transactions on Neural Networks and Learning Systems*, 2025,
+*[注释]: -  **Chen T**, Wang L J <sup><svg focusable="false" viewBox="0 0 102 128" height="20" title="Author email or social media contact details icon" class="icon icon-envelope react-xocs-author-icon u-fill-grey8"><path d="M55.8 57.2c-1.78 1.31-5.14 1.31-6.9 0L17.58 34h69.54L55.8 57.19zM0 32.42l42.94 32.62c2.64 1.95 6.02 2.93 9.4 2.93s6.78-.98 9.42-2.93L102 34.34V24H0zM92 88.9L73.94 66.16l-8.04 5.95L83.28 94H18.74l18.38-23.12-8.04-5.96L10 88.94V51.36L0 42.9V104h102V44.82l-10 8.46V88.9"></path></svg></sup>, C. L. Philip Chen. Sparse Bayesian broad learning system via adaptive lasso priors for robust regression[J]. *IEEE Transactions on Neural Networks and Learning Systems*, 2025, Early Access. [[链接]](https://doi.org/10.1109/TNNLS.2025.3630247)
 
 -   **Chen T**, Wang L J <sup><svg focusable="false" viewBox="0 0 102 128" height="20" title="Author email or social media contact details icon" class="icon icon-envelope react-xocs-author-icon u-fill-grey8"><path d="M55.8 57.2c-1.78 1.31-5.14 1.31-6.9 0L17.58 34h69.54L55.8 57.19zM0 32.42l42.94 32.62c2.64 1.95 6.02 2.93 9.4 2.93s6.78-.98 9.42-2.93L102 34.34V24H0zM92 88.9L73.94 66.16l-8.04 5.95L83.28 94H18.74l18.38-23.12-8.04-5.96L10 88.94V51.36L0 42.9V104h102V44.82l-10 8.46V88.9"></path></svg></sup>, Liu Y, et al. Double-kernel based Bayesian approximation broad learning system with dropout[J]. *Neurocomputing*, 2024, 610: 128533.
 [[HTML]](https://doi.org/10.1016/j.neucom.2024.128533)
