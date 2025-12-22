@@ -1,31 +1,57 @@
 name: Get Citation Data
 
 on: 
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
- workflow_dispatch:
-
+  page_build: 
+  schedule:
+    - cron:  '0 8 * * *' # 每天早上 8 点运行
+  workflow_dispatch: # 允许手动运行
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Reqs
+    - uses: actions/checkout@v3  # 升级到 v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install Dependencies
       run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
+        # 确保安装 requests 和 scholarly
+        pip install requests scholarly
+
+    - name: Run Script
+      env: 
+        # 这里注入三个必要的环境变量
+        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        SCOPUS_AUTHOR_ID: ${{ secrets.SCOPUS_AUTHOR_ID }}
+        SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
       run: |
+        # 进入代码目录
         cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
+        
+        # 运行脚本 (确保你的脚本文件名是 main.py)
         python3 main.py
-        cd ./results
+
+    - name: Push Results to Orphan Branch
+      run: |
+        # 注意：这里假设脚本运行后，结果生成在 google_scholar_crawler/results 文件夹里
+        cd ./google_scholar_crawler/results
+        
         git init
         git config --local user.name "${GITHUB_ACTOR}"
+        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        
+        # 重新定义远程仓库地址，带上 Token
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        
         git add *.json
-        git commit -m "Updated Citation Data"
+        
+        # 如果有变动则提交，没有变动不报错
+        git commit -m "Updated Citation Data" || echo "No changes to commit"
+        
+        # 强制推送到 google-scholar-stats 分支
+        # 这样你的 main 分支保持干净，只有数据在这个孤儿分支上
         git push "${remote_repo}" HEAD:google-scholar-stats --force
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
