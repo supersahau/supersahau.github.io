@@ -1,0 +1,28 @@
+# main links links
+main:
+  - title: "About Me"
+    url: "/#about-me"
+
+  - title: "Educations"
+    url: "/#-educations"
+
+  - title: "News"
+    url: "/#-news"
+
+  - title: "Programs"
+    url: "/#-programs"
+
+  - title: "Academic Publications"
+    url: "/#-publications"
+
+  - title: "Honors and Awards"
+    url: "/#-honors-and-awards"
+
+  - title: "Forums and Conferences"
+    url: "/#-conferences"
+
+  - title: "Internships"
+    url: "/#-internships"
+
+  - title: "Messages"
+    url: "/#-messages"
