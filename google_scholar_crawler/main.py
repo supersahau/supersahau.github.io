@@ -13,21 +13,32 @@ def save_json(data, filename):
     print(f"✅ 文件已生成: {filename}")
 
 # ==========================================
-# 1. Google Scholar (保持自动爬取)
+# 1. Google Scholar (带错误保护机制)
 # ==========================================
 def run_google_scholar():
     print("--- 正在获取 Google Scholar 数据 ---")
     gs_id = os.environ.get('GOOGLE_SCHOLAR_ID')
+    
+    # 这一步只是定义文件名，不进行写操作
+    target_filename = 'gs_data_shieldsio.json' 
+
     if not gs_id:
         print("跳过: 环境变量中找不到 GOOGLE_SCHOLAR_ID")
         return
 
     try:
+        # 设置超时或其他配置（scholarly 默认配置通常够用，但网络差时会抛出异常）
+        # 开始爬取
         author = scholarly.search_author_id(gs_id)
         scholarly.fill(author, sections=['basics', 'indices', 'counts'])
         citation_count = author.get('citedby', 0)
         
-        # 保存 Google 数据
+        # --- 核心修改：数据校验 ---
+        # 如果获取到的引用数为 0 或 None，视为无效数据（可能是被反爬限制），抛出异常
+        if not citation_count or citation_count == 0:
+            raise ValueError("获取到的引用数为 0，可能是网络问题或被反爬限制。")
+
+        # 只有数据正常，才构建字典
         shield_data = {
             "schemaVersion": 1,
             "label": "citations",
@@ -36,11 +47,16 @@ def run_google_scholar():
             "logoColor": "white",
             "color": "4285F4"
         }
-        save_json(shield_data, 'gs_data_shieldsio.json')
+        
+        # --- 核心修改：最后才保存 ---
+        # 只有代码运行到这里没有报错，才会覆盖旧文件
+        save_json(shield_data, target_filename)
         print(f"Google Scholar 更新成功: {citation_count}")
         
     except Exception as e:
-        print(f"Google Scholar 运行出错: {e}")
+        # 捕获所有异常（超时、网络错误、解析错误、上面自定义的ValueError）
+        print(f"⚠️ Google Scholar 运行出错: {e}")
+        print(f"🛑 此时不执行写入操作，保留 '{target_filename}' 上一次的缓存内容（如果存在）。")
 
 # ==========================================
 # 2. Scopus 部分 (手动输入模式)
@@ -57,7 +73,7 @@ def run_scopus():
     # 生成 Shields.io 需要的 JSON
     shield_data = {
         "schemaVersion": 1,
-        "label": "Scopus Citations", # 这个标签会被 URL 参数覆盖，但留着无妨
+        "label": "Scopus Citations",
         "message": str(manual_count),
         "namedLogo": "scopus",
         "logoColor": "white",
