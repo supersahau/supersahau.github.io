@@ -3,7 +3,7 @@ name: Get Citation Data
 on: 
   page_build: 
   schedule:
-    - cron:  '0 8 * * *' # 每天早上 8 点运行
+    - cron:  '0 * * * *' # 每个整点。。。
   workflow_dispatch: # 允许手动运行
 
 jobs:
