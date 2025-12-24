@@ -49,7 +49,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-educations'></span>
 # 🎓 Educations
-- *2025.09 - present*, <a href="https://english.hust.edu.cn/"><img class="jpg" src="images/HUST.jpg" width="23pt"></a> [School of Artificial Intelligence and Automation, Huazhong University of Science and Technology](http://english.aia.hust.edu.cn/), Intelligent Science and Technology, Doctor, Ph.D.
+- *2025.09 - present*, <a href="https://en-aia.hust.edu.cn/"><img class="jpg" src="images/HUST.jpg" width="23pt"></a> [School of Artificial Intelligence and Automation, Huazhong University of Science and Technology](http://english.aia.hust.edu.cn/), Intelligent Science and Technology, Doctor, Ph.D.
 - *2022.09 - 2025.06*, <a href="http://english.qdu.edu.cn/"><img class="jpg" src="images/qdu.jpg" width="23pt"></a> [School of Automation, Qingdao University](http://zdh.qdu.edu.cn/), System Science, Master, M.Sc.
 - *2017.09 - 2021.06*, <a href="http://eng.ahau.edu.cn/"><img class="jpg" src="images/ahau.jpg" width="23pt"></a> [School of Engineering, Anhui Agriculture University](http://gxy.ahau.edu.cn/), Vehicle Engineering, Undergraduate, B.Eng.
 
