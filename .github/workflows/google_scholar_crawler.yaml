@@ -10,48 +10,66 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3  # 升级到 v3
+    - uses: actions/checkout@v3
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'
 
-    - name: Install Dependencies
-      run: |
-        # 确保安装 requests 和 scholarly
-        pip install requests scholarly
+    # ======================================================
+    # 1. 先把旧数据下载下来“占位”
+    # ======================================================
+    - name: Checkout Old History
+      uses: actions/checkout@v3
+      with:
+        ref: google-scholar-stats   # 指定拉取存放数据的分支
+        path: google_scholar_crawler/results  # 拉取到脚本输出目录
+      continue-on-error: true  # 第一次运行时分支不存在，允许报错继续
 
+    # ======================================================
+    # 2. 清理下载下来的 git 信息 (关键)
+    #    如果不删，后面你运行 git init 会冲突或报错
+    # ======================================================
+    - name: Clean up git info
+      run: |
+        if [ -d "google_scholar_crawler/results/.git" ]; then
+          rm -rf google_scholar_crawler/results/.git
+        fi
+
+    - name: Install Dependencies
+      run: pip install requests scholarly
+
+    # ======================================================
+    # 3. 运行脚本
+    #    现在文件夹里已经有旧文件了：
+    #    - 成功生成的会覆盖旧文件
+    #    - 失败没生成的，旧文件还在
+    # ======================================================
     - name: Run Script
       env: 
-        # 这里注入三个必要的环境变量
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
         SCOPUS_AUTHOR_ID: ${{ secrets.SCOPUS_AUTHOR_ID }}
         SCOPUS_API_KEY: ${{ secrets.SCOPUS_API_KEY }}
       run: |
-        # 进入代码目录
         cd ./google_scholar_crawler
-        
-        # 运行脚本 (确保你的脚本文件名是 main.py)
         python3 main.py
 
     - name: Push Results to Orphan Branch
       run: |
-        # 注意：这里假设脚本运行后，结果生成在 google_scholar_crawler/results 文件夹里
         cd ./google_scholar_crawler/results
         
+        # 初始化一个新的 git 仓库用于推送
         git init
         git config --local user.name "${GITHUB_ACTOR}"
         git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         
-        # 重新定义远程仓库地址，带上 Token
         export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
         
+        # 此时 add 会同时包含：保留下来的旧Google数据 + 新生成的Scopus数据
         git add *.json
         
-        # 如果有变动则提交，没有变动不报错
         git commit -m "Updated Citation Data" || echo "No changes to commit"
         
-        # 强制推送到 google-scholar-stats 分支
-        # 这样你的 main 分支保持干净，只有数据在这个孤儿分支上
+        # 强制推送，完美合并
         git push "${remote_repo}" HEAD:google-scholar-stats --force
