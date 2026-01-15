@@ -31,6 +31,9 @@
       {% if author.wos %}
      <li><a href="https://www.webofscience.com/wos/author/record/{{ author.wos }}"><i class="ai ai-clarivate ai-fw" aria-hidden="true" style="color: #5F259F;"></i> Web of Science</a></li>
       {% endif %}
+      {% if author.scop %}
+     <li><a href="https://www.scopus.com/authid/detail.uri?authorId={{ author.scop }}"><i class="ai ai-scopus ai-fw" aria-hidden="true" style="color: #F78C25;"></i> Scopus</a></li>
+      {% endif %}
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true" style="color: #e67e22;"></i> Email</a></li>
       {% endif %}
@@ -222,3 +225,7 @@
     </div>
   </div>
 </div>
+
+
+
+
