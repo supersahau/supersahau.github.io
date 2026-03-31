@@ -56,7 +56,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 <span class='anchor' id='-news'></span>
 # 🔥 News 
 *[注释]: - *2026.xx*: Our paper that titled "Multi-output broad learning system via matrix-similarity measures" was accepted to published in IEEE Transactions on Systems, Man and Cybernetics: Systems [[Link]]().
- - *2026.03*: 🔥🔥Our paper that titled "Maximum total correntropy-based broad learning system with robust M-estimator" was accepted to published in Neural Networks [[Link]]().
+ - *2026.03*: 🔥🔥Our paper that titled "Maximum total correntropy-based broad learning system with robust M-estimator" was accepted to published in Neural Networks [[Link]](https://doi.org/10.1016/j.neunet.2026.108917).
  - *2025.11*: 🔥🔥Our paper that titled "Sparse Bayesian Broad Learning System via Adaptive Lasso Priors for Robust Regression" was accepted to published in IEEE TRANSACTIONS ON NEURAL NETWORKS AND LEARNING SYSTEMS [[Link]](https://doi.org/10.1109/TNNLS.2025.3630247).
 - *2025.06*: 🔥🔥Mr. Chen was awarded the Outstanding Master's Thesis of Qingdao University for the year 2025 [[Certificate]](/images/qduyouxiuxueweilunwen.jpg).
  
@@ -74,7 +74,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 ### English Papers
 ---
 
-*[注释]: - **Chen T**, Wang L J <sup><svg focusable="false" viewBox="0 0 102 128" height="20" title="Author email or social media contact details icon" class="icon icon-envelope react-xocs-author-icon u-fill-grey8"><path d="M55.8 57.2c-1.78 1.31-5.14 1.31-6.9 0L17.58 34h69.54L55.8 57.19zM0 32.42l42.94 32.62c2.64 1.95 6.02 2.93 9.4 2.93s6.78-.98 9.42-2.93L102 34.34V24H0zM92 88.9L73.94 66.16l-8.04 5.95L83.28 94H18.74l18.38-23.12-8.04-5.96L10 88.94V51.36L0 42.9V104h102V44.82l-10 8.46V88.9"></path></svg></sup>, C. L. Philip Chen. Multi-output broad learning system via matrix-similarity measures[J]. *IEEE Trans. Syst., Man, Cybern., Syst.*, 2026, xx: xxxx. [[HTML]]()
+*[注释]: - **Chen T**, Wang L J <sup><svg focusable="false" viewBox="0 0 102 128" height="20" title="Author email or social media contact details icon" class="icon icon-envelope react-xocs-author-icon u-fill-grey8"><path d="M55.8 57.2c-1.78 1.31-5.14 1.31-6.9 0L17.58 34h69.54L55.8 57.19zM0 32.42l42.94 32.62c2.64 1.95 6.02 2.93 9.4 2.93s6.78-.98 9.42-2.93L102 34.34V24H0zM92 88.9L73.94 66.16l-8.04 5.95L83.28 94H18.74l18.38-23.12-8.04-5.96L10 88.94V51.36L0 42.9V104h102V44.82l-10 8.46V88.9"></path></svg></sup>, C. L. Philip Chen. Multi-output broad learning system via matrix-similarity measures[J]. *IEEE Trans. Syst., Man, Cybern., Syst.*, 2026, xx: xxxx. [[HTML]](https://doi.org/10.1016/j.neunet.2026.108917)
 
 - **Chen T**, Chen X, Li W <sup><svg focusable="false" viewBox="0 0 102 128" height="20" title="Author email or social media contact details icon" class="icon icon-envelope react-xocs-author-icon u-fill-grey8"><path d="M55.8 57.2c-1.78 1.31-5.14 1.31-6.9 0L17.58 34h69.54L55.8 57.19zM0 32.42l42.94 32.62c2.64 1.95 6.02 2.93 9.4 2.93s6.78-.98 9.42-2.93L102 34.34V24H0zM92 88.9L73.94 66.16l-8.04 5.95L83.28 94H18.74l18.38-23.12-8.04-5.96L10 88.94V51.36L0 42.9V104h102V44.82l-10 8.46V88.9"></path></svg></sup>. Maximum total correntropy-based broad learning system with robust M-estimator[J]. *Neural Netw.*, 2026, xx: xxxx. [[HTML]]()
 
