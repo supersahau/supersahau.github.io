@@ -65,7 +65,7 @@ def run_scopus():
     print("\n--- 正在生成 Scopus 数据 (手动模式) ---")
     
     # 👇👇👇 在这里直接修改你的引用次数 👇👇👇
-    manual_count = "16" 
+    manual_count = "18" 
     # 👆👆👆 每次引用增加了，就来改这个数字，然后提交代码即可
     
     print(f"当前手动设置的 Scopus 引用数为: {manual_count}")
