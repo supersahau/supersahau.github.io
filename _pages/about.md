@@ -134,5 +134,5 @@ I helped my friends sort out the review material for the postgraduate entrance e
         async>
 </script>
 </div>
-
+<div class='paper-box'><img src='images/wxgzh.png' alt="sym" width="100%"></div>
 
