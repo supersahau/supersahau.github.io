@@ -69,7 +69,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 # 📝 Academic Publications 
 ### Graduate Theses
 ---
-- **CHEN Tao**. Research on regression prediction methods via sparse Bayesian broad learning systems[D]. Qingdao: *Qingdao University*, 2025. [[HTML]](https://kns.cnki.net/kcms2/article/abstract?v=ZBmzy5eCHca5gFH7bvCSIohm5jtvbeEssetopRE781cHD9s0thglqpX5pGQQABJIW0z98mAN0NnvxcTHUCdohOgEViva6B8IcHbbl3MwnMEQ0BqONSs-YiGvEeMjC4HOtZzGDIFofn9s_nPFW6-LzYfYEuN6SHxaCsEzbP0wTOGgXgHjhwH44A==&uniplatform=NZKPT&language=CHS)
+- **CHEN Tao**. Research on regression prediction methods via sparse Bayesian broad learning systems[D]. Qingdao: *Qingdao University*, 2025. [[HTML]](https://doi.org/10.27262/d.cnki.gqdau.2025.000935)
 
 ### English Papers
 ---
