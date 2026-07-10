@@ -105,9 +105,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-conferences'></span>
 # 🏭 Forums and Conferences
-- *2024.07*, The 3rd Graduate Student Innovation Achievement Exhibition of Qingdao University in the Summer Semester of 2024, Qingdao, Shandong.
-- *2024.05*, The 8th China Systems Science Congress, Wuhu, Anhui.
-- *2023.05*, The 2023 Postgraduate Academic Salon of Qingdao University "Realistic and Innovative, Research and Practice", Qingdao, Shandong. [[Notice]](https://mp.weixin.qq.com/s/iDcZ8NttA1ifqcynNizpSg)
+- *2026.05*, The 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC 2026), Changsha, Hubei.
 
 <span class='anchor' id='-internships'></span>
 # 💻 Internships
