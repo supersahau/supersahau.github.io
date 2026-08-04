@@ -105,7 +105,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-conferences'></span>
 # 🏭 Forums and Conferences
-- *2026.05*, The 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC 2026), Changsha, Hubei.
+- *2026.05*, The 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC 2026), Changsha, Hunan.
 
 <span class='anchor' id='-internships'></span>
 # 💻 Internships
