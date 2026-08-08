@@ -93,6 +93,10 @@ I helped my friends sort out the review material for the postgraduate entrance e
 -   **CHEN Tao**, WANG Lijie <sup><svg focusable="false" viewBox="0 0 102 128" height="20" title="Author email or social media contact details icon" class="icon icon-envelope react-xocs-author-icon u-fill-grey8"><path d="M55.8 57.2c-1.78 1.31-5.14 1.31-6.9 0L17.58 34h69.54L55.8 57.19zM0 32.42l42.94 32.62c2.64 1.95 6.02 2.93 9.4 2.93s6.78-.98 9.42-2.93L102 34.34V24H0zM92 88.9L73.94 66.16l-8.04 5.95L83.28 94H18.74l18.38-23.12-8.04-5.96L10 88.94V51.36L0 42.9V104h102V44.82l-10 8.46V88.9"></path></svg></sup>, LIU Yang, et al. Bayesian approximate broad learning system with dropout structure[J]. *Control Theory Appl.*, 2025, 42(8): 1632-1640.
 [[HTML]](https://dx.doi.org/10.7641/CTA.2024.30087)
 
+### Conference Papers
+---
+- **Chen T**, Chen X, Li W <sup><svg focusable="false" viewBox="0 0 102 128" height="20" title="Author email or social media contact details icon" class="icon icon-envelope react-xocs-author-icon u-fill-grey8"><path d="M55.8 57.2c-1.78 1.31-5.14 1.31-6.9 0L17.58 34h69.54L55.8 57.19zM0 32.42l42.94 32.62c2.64 1.95 6.02 2.93 9.4 2.93s6.78-.98 9.42-2.93L102 34.34V24H0zM92 88.9L73.94 66.16l-8.04 5.95L83.28 94H18.74l18.38-23.12-8.04-5.96L10 88.94V51.36L0 42.9V104h102V44.82l-10 8.46V88.9"></path></svg></sup>. A novel quaternion broad learning system for 3D/4D time series forecasting[J]. *2026 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC)*, Changsha, China: IEEE, 2026: 1052-1056. [[‌HTML]](https://doi.org/10.1109/YAC71005.2026.11616136) [[Bib]](/images/nqbls.bib)
+
 **<svg focusable="false" viewBox="0 0 102 128" height="20" title="Author email or social media contact details icon" class="icon icon-envelope react-xocs-author-icon u-fill-grey8"><path d="M55.8 57.2c-1.78 1.31-5.14 1.31-6.9 0L17.58 34h69.54L55.8 57.19zM0 32.42l42.94 32.62c2.64 1.95 6.02 2.93 9.4 2.93s6.78-.98 9.42-2.93L102 34.34V24H0zM92 88.9L73.94 66.16l-8.04 5.95L83.28 94H18.74l18.38-23.12-8.04-5.96L10 88.94V51.36L0 42.9V104h102V44.82l-10 8.46V88.9"></path></svg>: Corresponding author.**
 
 <span class='anchor' id='-honors-and-awards'></span>
@@ -105,7 +109,7 @@ I helped my friends sort out the review material for the postgraduate entrance e
 
 <span class='anchor' id='-conferences'></span>
 # 🏭 Forums and Conferences
-- *2026.05*, The 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC 2026), Changsha, Hunan.
+- *2026.05*, The 41st Youth Academic Annual Conference of Chinese Association of Automation (YAC 2026), Changsha, Hunan. [[‌HTML]](https://doi.org/10.1109/YAC71005.2026.11616136)
 
 <span class='anchor' id='-internships'></span>
 # 💻 Internships
